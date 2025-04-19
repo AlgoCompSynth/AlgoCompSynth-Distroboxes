@@ -4,7 +4,8 @@ set -e
 
 for option in \
   RStudio_Server \
-  JupyterLab
+  JupyterLab \
+  miniAudicle_from_source
 do
   echo ""
   echo "$option:"

@@ -2,7 +2,8 @@
 
 set -e
 
-source ../set_envars
+echo "Setting ChucK version"
+export CHUCK_VERSION="chuck-1.5.5.0"
 echo "Setting Qt version"
 export QT_SELECT=qt6
 
@@ -12,11 +13,12 @@ export LOGFILE=$PWD/Logs/install_miniaudicle.log
 rm --force $LOGFILE
 
 echo "Installing build dependencies"
+export DEBIAN_FRONTEND="noninteractive"
 sudo apt-get update -qq \
   >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get upgrade --yes \
+/usr/bin/time sudo apt-get upgrade --assume-yes \
   >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get install --yes \
+/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   alsa-utils \
   bison \
   build-essential \
@@ -49,7 +51,6 @@ pushd $HOME/Projects/miniAudicle/src/chuck/src
     >> $LOGFILE 2>&1
   /usr/bin/time make --jobs=`nproc` linux-all \
     >> $LOGFILE 2>&1
-  echo ""
   echo "Installing ChucK"
   sudo make install \
     >> $LOGFILE 2>&1
@@ -62,7 +63,6 @@ pushd $HOME/Projects/miniAudicle/src/chugins
     >> $LOGFILE 2>&1
   /usr/bin/time make --jobs=`nproc` linux \
     >> $LOGFILE 2>&1
-  echo ""
   echo "Installing ChuGins"
   sudo make install \
     >> $LOGFILE 2>&1
@@ -75,7 +75,6 @@ pushd $HOME/Projects/miniAudicle/src
     >> $LOGFILE 2>&1
   /usr/bin/time make --jobs=`nproc` linux-all \
     >> $LOGFILE 2>&1
-  echo ""
   echo "Installing miniAudicle"
   sudo make install \
     >> $LOGFILE 2>&1

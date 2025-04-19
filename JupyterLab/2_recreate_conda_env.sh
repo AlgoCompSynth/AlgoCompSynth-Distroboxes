@@ -29,7 +29,8 @@ echo "Installing Linux dependencies"
   sox \
   >> $LOGFILE 2>&1
 
-export COMPUTE_MODE="CUDA"
+echo "Getting COMPUTE_MODE"
+source ../set_compute_mode.sh
 echo "COMPUTE_MODE: $COMPUTE_MODE"
 
 echo ""
