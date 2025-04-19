@@ -1,0 +1,715 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  gir1.2-ibus-1.0 libasound2-dev libdbus-1-dev libdecor-0-dev libdrm-dev
+  libegl-dev libflac-dev libgbm-dev libgl-dev libgles-dev libgles1 libglx-dev
+  libibus-1.0-5 libibus-1.0-dev libinstpatch-dev libmpg123-dev libogg-dev
+  libopus-dev libpciaccess-dev libpulse-dev libpulse-mainloop-glib0
+  libsamplerate0-dev libsdl2-dev libsndfile1-dev libsndio-dev libsystemd-dev
+  libudev-dev libvorbis-dev libwayland-bin libwayland-dev libxcursor-dev
+  libxfixes-dev libxi-dev libxinerama-dev libxkbcommon-dev libxrandr-dev
+  libxss-dev libxv-dev libxxf86vm-dev
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+0.00user 0.00system 0:00.90elapsed 0%CPU (0avgtext+0avgdata 4804maxresident)k
+0inputs+0outputs (0major+387minor)pagefaults 0swaps
+Reading package lists...
+Building dependency tree...
+Reading state information...
+alsa-utils is already the newest version (1.2.8-1).
+build-essential is already the newest version (12.9).
+libasound2-dev is already the newest version (1.2.8-1+b1).
+libasound2-dev set to manually installed.
+libpulse-dev is already the newest version (16.1+dfsg1-2+b1).
+libpulse-dev set to manually installed.
+libsndfile1-dev is already the newest version (1.2.0-1).
+libsndfile1-dev set to manually installed.
+The following packages were automatically installed and are no longer required:
+  gir1.2-ibus-1.0 libdbus-1-dev libdecor-0-dev libdrm-dev libegl-dev
+  libgbm-dev libgles-dev libgles1 libibus-1.0-5 libibus-1.0-dev
+  libinstpatch-dev libpciaccess-dev libsamplerate0-dev libsdl2-dev
+  libsndio-dev libsystemd-dev libudev-dev libxcursor-dev libxfixes-dev
+  libxi-dev libxinerama-dev libxkbcommon-dev libxrandr-dev libxss-dev
+  libxv-dev libxxf86vm-dev
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libfl-dev libfl2 libopengl-dev libqscintilla2-qt6-15 libqscintilla2-qt6-l10n
+  libqt6concurrent6 libqt6opengl6 libqt6opengl6-dev libqt6openglwidgets6
+  libqt6printsupport6 libqt6qml6 libqt6qmlmodels6 libqt6quick6 libqt6sql6
+  libqt6sql6-sqlite libqt6test6 libqt6waylandclient6 libqt6waylandcompositor6
+  libqt6waylandeglclienthwintegration6
+  libqt6waylandeglcompositorhwintegration6 libqt6wlshellintegration6
+  libvulkan-dev qmake6 qmake6-bin qt6-base-dev-tools qt6-wayland-dev-tools
+Suggested packages:
+  bison-doc flex-doc libqscintilla2-doc qt6-qmltooling-plugins
+The following NEW packages will be installed:
+  bison flex libfl-dev libfl2 libjack-jackd2-dev libopengl-dev
+  libqscintilla2-qt6-15 libqscintilla2-qt6-dev libqscintilla2-qt6-l10n
+  libqt6concurrent6 libqt6opengl6 libqt6opengl6-dev libqt6openglwidgets6
+  libqt6printsupport6 libqt6qml6 libqt6qmlmodels6 libqt6quick6 libqt6sql6
+  libqt6sql6-sqlite libqt6test6 libqt6waylandclient6 libqt6waylandcompositor6
+  libqt6waylandeglclienthwintegration6
+  libqt6waylandeglcompositorhwintegration6 libqt6wlshellintegration6
+  libvulkan-dev qmake6 qmake6-bin qt6-base-dev qt6-base-dev-tools qt6-wayland
+  qt6-wayland-dev qt6-wayland-dev-tools
+0 upgraded, 33 newly installed, 0 to remove and 0 not upgraded.
+Need to get 12.9 MB of archives.
+After this operation, 77.7 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian stable/main amd64 flex amd64 2.6.4-8.2 [422 kB]
+Get:2 http://deb.debian.org/debian stable/main amd64 bison amd64 2:3.8.2+dfsg-1+b1 [1,175 kB]
+Get:3 http://deb.debian.org/debian stable/main amd64 libfl2 amd64 2.6.4-8.2 [84.0 kB]
+Get:4 http://deb.debian.org/debian stable/main amd64 libfl-dev amd64 2.6.4-8.2 [85.2 kB]
+Get:5 http://deb.debian.org/debian stable/main amd64 libjack-jackd2-dev amd64 1.9.21~dfsg-3 [59.7 kB]
+Get:6 http://deb.debian.org/debian stable/main amd64 libopengl-dev amd64 1.6.0-1 [4,936 B]
+Get:7 http://deb.debian.org/debian stable/main amd64 libqscintilla2-qt6-l10n all 2.13.3+dfsg-3 [103 kB]
+Get:8 http://deb.debian.org/debian stable/main amd64 libqt6printsupport6 amd64 6.4.2+dfsg-10 [211 kB]
+Get:9 http://deb.debian.org/debian stable/main amd64 libqscintilla2-qt6-15 amd64 2.13.3+dfsg-3 [1,115 kB]
+Get:10 http://deb.debian.org/debian stable/main amd64 libqt6concurrent6 amd64 6.4.2+dfsg-10 [37.0 kB]
+Get:11 http://deb.debian.org/debian stable/main amd64 libqt6opengl6 amd64 6.4.2+dfsg-10 [390 kB]
+Get:12 http://deb.debian.org/debian stable/main amd64 libqt6openglwidgets6 amd64 6.4.2+dfsg-10 [43.4 kB]
+Get:13 http://deb.debian.org/debian stable/main amd64 libqt6sql6 amd64 6.4.2+dfsg-10 [133 kB]
+Get:14 http://deb.debian.org/debian stable/main amd64 libqt6test6 amd64 6.4.2+dfsg-10 [161 kB]
+Get:15 http://deb.debian.org/debian stable/main amd64 libvulkan-dev amd64 1.3.239.0-1 [1,115 kB]
+Get:16 http://deb.debian.org/debian stable/main amd64 qmake6-bin amd64 6.4.2+dfsg-10 [583 kB]
+Get:17 http://deb.debian.org/debian stable/main amd64 qmake6 amd64 6.4.2+dfsg-10 [179 kB]
+Get:18 http://deb.debian.org/debian stable/main amd64 qt6-base-dev-tools amd64 6.4.2+dfsg-10 [890 kB]
+Get:19 http://deb.debian.org/debian stable/main amd64 qt6-base-dev amd64 6.4.2+dfsg-10 [1,367 kB]
+Get:20 http://deb.debian.org/debian stable/main amd64 libqscintilla2-qt6-dev amd64 2.13.3+dfsg-3 [123 kB]
+Get:21 http://deb.debian.org/debian stable/main amd64 libqt6opengl6-dev amd64 6.4.2+dfsg-10 [115 kB]
+Get:22 http://deb.debian.org/debian stable/main amd64 libqt6qml6 amd64 6.4.2+dfsg-1 [1,479 kB]
+Get:23 http://deb.debian.org/debian stable/main amd64 libqt6qmlmodels6 amd64 6.4.2+dfsg-1 [245 kB]
+Get:24 http://deb.debian.org/debian stable/main amd64 libqt6quick6 amd64 6.4.2+dfsg-1 [1,809 kB]
+Get:25 http://deb.debian.org/debian stable/main amd64 libqt6sql6-sqlite amd64 6.4.2+dfsg-10 [59.0 kB]
+Get:26 http://deb.debian.org/debian stable/main amd64 libqt6waylandclient6 amd64 6.4.2-1 [231 kB]
+Get:27 http://deb.debian.org/debian stable/main amd64 libqt6waylandcompositor6 amd64 6.4.2-1 [387 kB]
+Get:28 http://deb.debian.org/debian stable/main amd64 libqt6waylandeglclienthwintegration6 amd64 6.4.2-1 [19.5 kB]
+Get:29 http://deb.debian.org/debian stable/main amd64 libqt6waylandeglcompositorhwintegration6 amd64 6.4.2-1 [15.5 kB]
+Get:30 http://deb.debian.org/debian stable/main amd64 libqt6wlshellintegration6 amd64 6.4.2-1 [36.1 kB]
+Get:31 http://deb.debian.org/debian stable/main amd64 qt6-wayland amd64 6.4.2-1 [116 kB]
+Get:32 http://deb.debian.org/debian stable/main amd64 qt6-wayland-dev-tools amd64 6.4.2-1 [27.7 kB]
+Get:33 http://deb.debian.org/debian stable/main amd64 qt6-wayland-dev amd64 6.4.2-1 [56.2 kB]
+Fetched 12.9 MB in 1s (11.9 MB/s)
+Selecting previously unselected package flex.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 102284 files and directories currently installed.)
+Preparing to unpack .../00-flex_2.6.4-8.2_amd64.deb ...
+Unpacking flex (2.6.4-8.2) ...
+Selecting previously unselected package bison.
+Preparing to unpack .../01-bison_2%3a3.8.2+dfsg-1+b1_amd64.deb ...
+Unpacking bison (2:3.8.2+dfsg-1+b1) ...
+Selecting previously unselected package libfl2:amd64.
+Preparing to unpack .../02-libfl2_2.6.4-8.2_amd64.deb ...
+Unpacking libfl2:amd64 (2.6.4-8.2) ...
+Selecting previously unselected package libfl-dev:amd64.
+Preparing to unpack .../03-libfl-dev_2.6.4-8.2_amd64.deb ...
+Unpacking libfl-dev:amd64 (2.6.4-8.2) ...
+Selecting previously unselected package libjack-jackd2-dev:amd64.
+Preparing to unpack .../04-libjack-jackd2-dev_1.9.21~dfsg-3_amd64.deb ...
+Unpacking libjack-jackd2-dev:amd64 (1.9.21~dfsg-3) ...
+Selecting previously unselected package libopengl-dev:amd64.
+Preparing to unpack .../05-libopengl-dev_1.6.0-1_amd64.deb ...
+Unpacking libopengl-dev:amd64 (1.6.0-1) ...
+Selecting previously unselected package libqscintilla2-qt6-l10n.
+Preparing to unpack .../06-libqscintilla2-qt6-l10n_2.13.3+dfsg-3_all.deb ...
+Unpacking libqscintilla2-qt6-l10n (2.13.3+dfsg-3) ...
+Selecting previously unselected package libqt6printsupport6:amd64.
+Preparing to unpack .../07-libqt6printsupport6_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6printsupport6:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqscintilla2-qt6-15:amd64.
+Preparing to unpack .../08-libqscintilla2-qt6-15_2.13.3+dfsg-3_amd64.deb ...
+Unpacking libqscintilla2-qt6-15:amd64 (2.13.3+dfsg-3) ...
+Selecting previously unselected package libqt6concurrent6:amd64.
+Preparing to unpack .../09-libqt6concurrent6_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6concurrent6:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqt6opengl6:amd64.
+Preparing to unpack .../10-libqt6opengl6_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6opengl6:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqt6openglwidgets6:amd64.
+Preparing to unpack .../11-libqt6openglwidgets6_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6openglwidgets6:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqt6sql6:amd64.
+Preparing to unpack .../12-libqt6sql6_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6sql6:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqt6test6:amd64.
+Preparing to unpack .../13-libqt6test6_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6test6:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libvulkan-dev:amd64.
+Preparing to unpack .../14-libvulkan-dev_1.3.239.0-1_amd64.deb ...
+Unpacking libvulkan-dev:amd64 (1.3.239.0-1) ...
+Selecting previously unselected package qmake6-bin.
+Preparing to unpack .../15-qmake6-bin_6.4.2+dfsg-10_amd64.deb ...
+Unpacking qmake6-bin (6.4.2+dfsg-10) ...
+Selecting previously unselected package qmake6:amd64.
+Preparing to unpack .../16-qmake6_6.4.2+dfsg-10_amd64.deb ...
+Unpacking qmake6:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package qt6-base-dev-tools.
+Preparing to unpack .../17-qt6-base-dev-tools_6.4.2+dfsg-10_amd64.deb ...
+Unpacking qt6-base-dev-tools (6.4.2+dfsg-10) ...
+Selecting previously unselected package qt6-base-dev:amd64.
+Preparing to unpack .../18-qt6-base-dev_6.4.2+dfsg-10_amd64.deb ...
+Unpacking qt6-base-dev:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqscintilla2-qt6-dev:amd64.
+Preparing to unpack .../19-libqscintilla2-qt6-dev_2.13.3+dfsg-3_amd64.deb ...
+Unpacking libqscintilla2-qt6-dev:amd64 (2.13.3+dfsg-3) ...
+Selecting previously unselected package libqt6opengl6-dev:amd64.
+Preparing to unpack .../20-libqt6opengl6-dev_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6opengl6-dev:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqt6qml6:amd64.
+Preparing to unpack .../21-libqt6qml6_6.4.2+dfsg-1_amd64.deb ...
+Unpacking libqt6qml6:amd64 (6.4.2+dfsg-1) ...
+Selecting previously unselected package libqt6qmlmodels6:amd64.
+Preparing to unpack .../22-libqt6qmlmodels6_6.4.2+dfsg-1_amd64.deb ...
+Unpacking libqt6qmlmodels6:amd64 (6.4.2+dfsg-1) ...
+Selecting previously unselected package libqt6quick6:amd64.
+Preparing to unpack .../23-libqt6quick6_6.4.2+dfsg-1_amd64.deb ...
+Unpacking libqt6quick6:amd64 (6.4.2+dfsg-1) ...
+Selecting previously unselected package libqt6sql6-sqlite:amd64.
+Preparing to unpack .../24-libqt6sql6-sqlite_6.4.2+dfsg-10_amd64.deb ...
+Unpacking libqt6sql6-sqlite:amd64 (6.4.2+dfsg-10) ...
+Selecting previously unselected package libqt6waylandclient6:amd64.
+Preparing to unpack .../25-libqt6waylandclient6_6.4.2-1_amd64.deb ...
+Unpacking libqt6waylandclient6:amd64 (6.4.2-1) ...
+Selecting previously unselected package libqt6waylandcompositor6:amd64.
+Preparing to unpack .../26-libqt6waylandcompositor6_6.4.2-1_amd64.deb ...
+Unpacking libqt6waylandcompositor6:amd64 (6.4.2-1) ...
+Selecting previously unselected package libqt6waylandeglclienthwintegration6:amd64.
+Preparing to unpack .../27-libqt6waylandeglclienthwintegration6_6.4.2-1_amd64.deb ...
+Unpacking libqt6waylandeglclienthwintegration6:amd64 (6.4.2-1) ...
+Selecting previously unselected package libqt6waylandeglcompositorhwintegration6:amd64.
+Preparing to unpack .../28-libqt6waylandeglcompositorhwintegration6_6.4.2-1_amd64.deb ...
+Unpacking libqt6waylandeglcompositorhwintegration6:amd64 (6.4.2-1) ...
+Selecting previously unselected package libqt6wlshellintegration6:amd64.
+Preparing to unpack .../29-libqt6wlshellintegration6_6.4.2-1_amd64.deb ...
+Unpacking libqt6wlshellintegration6:amd64 (6.4.2-1) ...
+Selecting previously unselected package qt6-wayland:amd64.
+Preparing to unpack .../30-qt6-wayland_6.4.2-1_amd64.deb ...
+Unpacking qt6-wayland:amd64 (6.4.2-1) ...
+Selecting previously unselected package qt6-wayland-dev-tools.
+Preparing to unpack .../31-qt6-wayland-dev-tools_6.4.2-1_amd64.deb ...
+Unpacking qt6-wayland-dev-tools (6.4.2-1) ...
+Selecting previously unselected package qt6-wayland-dev:amd64.
+Preparing to unpack .../32-qt6-wayland-dev_6.4.2-1_amd64.deb ...
+Unpacking qt6-wayland-dev:amd64 (6.4.2-1) ...
+Setting up libqt6concurrent6:amd64 (6.4.2+dfsg-10) ...
+Setting up flex (2.6.4-8.2) ...
+Setting up libvulkan-dev:amd64 (1.3.239.0-1) ...
+Setting up libqt6printsupport6:amd64 (6.4.2+dfsg-10) ...
+Setting up libqt6test6:amd64 (6.4.2+dfsg-10) ...
+Setting up qt6-base-dev-tools (6.4.2+dfsg-10) ...
+Setting up libqt6qml6:amd64 (6.4.2+dfsg-1) ...
+Setting up libqt6opengl6:amd64 (6.4.2+dfsg-10) ...
+Setting up libjack-jackd2-dev:amd64 (1.9.21~dfsg-3) ...
+Setting up libqt6qmlmodels6:amd64 (6.4.2+dfsg-1) ...
+Setting up libqt6waylandclient6:amd64 (6.4.2-1) ...
+Setting up libqt6sql6:amd64 (6.4.2+dfsg-10) ...
+Setting up libqt6sql6-sqlite:amd64 (6.4.2+dfsg-10) ...
+Setting up libqt6quick6:amd64 (6.4.2+dfsg-1) ...
+Setting up libfl2:amd64 (2.6.4-8.2) ...
+Setting up libqscintilla2-qt6-l10n (2.13.3+dfsg-3) ...
+Setting up qt6-wayland-dev-tools (6.4.2-1) ...
+Setting up qmake6-bin (6.4.2+dfsg-10) ...
+Setting up bison (2:3.8.2+dfsg-1+b1) ...
+update-alternatives: using /usr/bin/bison.yacc to provide /usr/bin/yacc (yacc) in auto mode
+Setting up libopengl-dev:amd64 (1.6.0-1) ...
+Setting up libqt6openglwidgets6:amd64 (6.4.2+dfsg-10) ...
+Setting up libqt6wlshellintegration6:amd64 (6.4.2-1) ...
+Setting up libqt6waylandcompositor6:amd64 (6.4.2-1) ...
+Setting up libqscintilla2-qt6-15:amd64 (2.13.3+dfsg-3) ...
+Setting up libqt6waylandeglcompositorhwintegration6:amd64 (6.4.2-1) ...
+Setting up libqt6waylandeglclienthwintegration6:amd64 (6.4.2-1) ...
+Setting up libfl-dev:amd64 (2.6.4-8.2) ...
+Setting up qmake6:amd64 (6.4.2+dfsg-10) ...
+Setting up qt6-base-dev:amd64 (6.4.2+dfsg-10) ...
+Setting up libqt6opengl6-dev:amd64 (6.4.2+dfsg-10) ...
+Setting up libqscintilla2-qt6-dev:amd64 (2.13.3+dfsg-3) ...
+Setting up qt6-wayland:amd64 (6.4.2-1) ...
+Setting up qt6-wayland-dev:amd64 (6.4.2-1) ...
+Processing triggers for libc-bin (2.36-9+deb12u10) ...
+Processing triggers for man-db (2.11.2-2) ...
+0.00user 0.00system 0:06.26elapsed 0%CPU (0avgtext+0avgdata 4944maxresident)k
+0inputs+0outputs (0major+389minor)pagefaults 0swaps
+Cloning into 'miniAudicle'...
+Submodule 'src/chuck' (https://github.com/ccrma/chuck.git) registered for path 'src/chuck'
+Submodule 'src/chugins' (https://github.com/ccrma/chugins.git) registered for path 'src/chugins'
+Submodule 'src/chump' (git@github.com:ccrma/chump.git) registered for path 'src/chump'
+Cloning into '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chuck'...
+Cloning into '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins'...
+Cloning into '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chump'...
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Submodule path 'src/chuck': checked out 'b48257a3e267021847b2d77bf1fdab54a33a270b'
+Submodule path 'src/chugins': checked out '2b7b0185400817705f829a53ecfbaee1a89ade3b'
+Submodule 'WarpBuf/thirdparty/libsamplerate' (https://github.com/libsndfile/libsamplerate) registered for path 'src/chugins/WarpBuf/thirdparty/libsamplerate'
+Submodule 'WarpBuf/thirdparty/libsndfile' (https://github.com/libsndfile/libsndfile.git) registered for path 'src/chugins/WarpBuf/thirdparty/libsndfile'
+Submodule 'WarpBuf/thirdparty/rubberband' (https://github.com/breakfastquay/rubberband/) registered for path 'src/chugins/WarpBuf/thirdparty/rubberband'
+Cloning into '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WarpBuf/thirdparty/libsamplerate'...
+Cloning into '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WarpBuf/thirdparty/libsndfile'...
+Cloning into '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WarpBuf/thirdparty/rubberband'...
+Submodule path 'src/chugins/WarpBuf/thirdparty/libsamplerate': checked out '22bd06eb114850ebe31981eb794d150a95439fef'
+Submodule path 'src/chugins/WarpBuf/thirdparty/libsndfile': checked out 'e486f20fd4b1c7490cde84f22635e1c267ae882b'
+Submodule path 'src/chugins/WarpBuf/thirdparty/rubberband': checked out '6cd48ab2c711eb32da25fd1953d6f7f1d5e2cba3'
+Submodule path 'src/chump': checked out 'f3e0e46be406523c3d924985b1c0ccb5f7701d3e'
+12.54user 2.59system 8:00.68elapsed 3%CPU (0avgtext+0avgdata 92636maxresident)k
+3200inputs+779672outputs (3major+165029minor)pagefaults 0swaps
+Previous HEAD position was b48257a3 begin 1.5.5.1-dev cycle
+HEAD is now at ad5d5607 update release note dates:
+-------------
+[chuck-core]: compiling...
+make linux-all -C core 
+g++ -I. -Icore -Icore/lo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -IRtAudio  -c host/chuck_main.cpp -o host/chuck_main.o
+g++ -I. -Icore -Icore/lo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -IRtAudio  -c host/chuck_audio.cpp -o host/chuck_audio.o
+g++ -I. -Icore -Icore/lo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -IRtAudio  -c host/chuck_console.cpp -o host/chuck_console.o
+g++ -I. -Icore -Icore/lo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -IRtAudio  -c host/RtAudio/RtAudio.cpp -o host/RtAudio/RtAudio.o
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chuck/src/core'
+bison -dv -b chuck chuck.y
+bison -dv -b chuck chuck.y
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_network.c -o util_network.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_raw.c -o util_raw.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_xforms.c -o util_xforms.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_absyn.cpp -o chuck_absyn.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_parse.cpp -o chuck_parse.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_errmsg.cpp -o chuck_errmsg.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_frame.cpp -o chuck_frame.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_symbol.cpp -o chuck_symbol.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_table.cpp -o chuck_table.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_vm.cpp -o chuck_vm.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_instr.cpp -o chuck_instr.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_scan.cpp -o chuck_scan.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_type.cpp -o chuck_type.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_emit.cpp -o chuck_emit.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_compile.cpp -o chuck_compile.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_dl.cpp -o chuck_dl.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_oo.cpp -o chuck_oo.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_lang.cpp -o chuck_lang.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_ugen.cpp -o chuck_ugen.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_otf.cpp -o chuck_otf.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_stats.cpp -o chuck_stats.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_shell.cpp -o chuck_shell.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_io.cpp -o chuck_io.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck.cpp -o chuck.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_carrier.cpp -o chuck_carrier.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck_globals.cpp -o chuck_globals.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c midiio_rtmidi.cpp -o midiio_rtmidi.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c rtmidi.cpp -o rtmidi.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c hidio_sdl.cpp -o hidio_sdl.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ugen_osc.cpp -o ugen_osc.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ugen_filter.cpp -o ugen_filter.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ugen_stk.cpp -o ugen_stk.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ugen_xxx.cpp -o ugen_xxx.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ulib_ai.cpp -o ulib_ai.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ulib_doc.cpp -o ulib_doc.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ulib_machine.cpp -o ulib_machine.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ulib_math.cpp -o ulib_math.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ulib_std.cpp -o ulib_std.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c ulib_opsc.cpp -o ulib_opsc.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_buffers.cpp -o util_buffers.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_console.cpp -o util_console.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_math.cpp -o util_math.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_platforms.cpp -o util_platforms.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_string.cpp -o util_string.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_thread.cpp -o util_thread.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_opsc.cpp -o util_opsc.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_serial.cpp -o util_serial.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c util_hid.cpp -o util_hid.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c uana_xform.cpp -o uana_xform.o
+g++ -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c uana_extract.cpp -o uana_extract.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/address.c -o lo/address.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/blob.c -o lo/blob.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/bundle.c -o lo/bundle.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/message.c -o lo/message.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/method.c -o lo/method.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/pattern_match.c -o lo/pattern_match.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/send.c -o lo/send.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/server.c -o lo/server.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/server_thread.c -o lo/server_thread.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__  -DHAVE_CONFIG_H -I.  -c lo/timetag.c -o lo/timetag.o
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck.tab.c -o chuck.tab.o
+flex -ochuck.yy.c chuck.lex
+gcc -I. -Ilo -O3 -D__LINUX_ALSA__ -D__LINUX_PULSE__ -D__UNIX_JACK__ -fno-strict-aliasing -D__CK_SNDFILE_NATIVE__   -c chuck.yy.c -o chuck.yy.o
+[chuck-core]: all components built...
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chuck/src/core'
+-------------
+g++ -o chuck  core/chuck.tab.o core/chuck.yy.o core/util_math.o core/util_network.o core/util_raw.o core/util_xforms.o host/chuck_main.o host/chuck_audio.o host/chuck_console.o host/RtAudio/RtAudio.o core/chuck.o core/chuck_absyn.o core/chuck_parse.o core/chuck_errmsg.o core/chuck_frame.o core/chuck_symbol.o core/chuck_table.o core/chuck_vm.o core/chuck_instr.o core/chuck_scan.o core/chuck_type.o core/chuck_emit.o core/chuck_compile.o core/chuck_dl.o core/chuck_oo.o core/chuck_lang.o core/chuck_ugen.o core/chuck_otf.o core/chuck_stats.o core/chuck_shell.o core/chuck_io.o core/chuck_carrier.o core/chuck_globals.o core/hidio_sdl.o core/midiio_rtmidi.o core/rtmidi.o core/ugen_osc.o core/ugen_filter.o core/ugen_stk.o core/ugen_xxx.o core/ulib_ai.o core/ulib_doc.o core/ulib_machine.o core/ulib_math.o core/ulib_std.o core/ulib_opsc.o core/util_buffers.o core/util_console.o core/util_hid.o core/util_platforms.o core/util_opsc.o core/util_serial.o core/util_string.o core/util_thread.o core/uana_xform.o core/uana_extract.o core/lo/address.o core/lo/blob.o core/lo/bundle.o core/lo/message.o core/lo/method.o core/lo/pattern_match.o core/lo/send.o core/lo/server.o core/lo/server_thread.o core/lo/timetag.o  -lasound -ljack  -lpulse-simple -lpulse -lstdc++ -ldl -lm -lsndfile -lpthread 
+173.18user 8.27system 0:29.20elapsed 621%CPU (0avgtext+0avgdata 363828maxresident)k
+11336inputs+26168outputs (5major+2247138minor)pagefaults 0swaps
+mkdir -p /usr/local/bin
+cp chuck /usr/local/bin/
+chmod 755 /usr/local/bin/chuck
+HEAD is now at 2b7b018 update chugin.h to 1.5.5.0
+CHUCK_STRICT=1 make -C ABSaturator/ linux
+CHUCK_STRICT=1 make -C AmbPan/ linux
+CHUCK_STRICT=1 make -C Bitcrusher/ linux
+CHUCK_STRICT=1 make -C KasFilter/ linux
+CHUCK_STRICT=1 make -C MagicSine/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+CHUCK_STRICT=1 make -C FIR/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+CHUCK_STRICT=1 make -C FoldbackSaturator/ linux
+CHUCK_STRICT=1 make -C Ladspa/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/ABSaturator'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o ABSaturator.o ABSaturator.cpp
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/AmbPan'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o AmbPan.o AmbPan.cpp
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/KasFilter'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o KasFilter.o KasFilter.cpp
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Bitcrusher'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Bitcrusher.o Bitcrusher.cpp
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/MagicSine'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o MagicSine.o MagicSine.cpp
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/FIR'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o FIR.o FIR.cpp
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/FoldbackSaturator'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o FoldbackSaturator.o FoldbackSaturator.cpp
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Ladspa'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Ladspa.o Ladspa.cpp
+gcc -shared -lstdc++ -o Bitcrusher.chug Bitcrusher.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Bitcrusher'
+CHUCK_STRICT=1 make -C NHHall/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/NHHall'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC --std=c++11 -O3 -Werror -c -o NHHall.o NHHall.cpp
+gcc -shared -lstdc++ -o FoldbackSaturator.chug FoldbackSaturator.o
+gcc -shared -lstdc++ -o MagicSine.chug MagicSine.o
+gcc -shared -lstdc++ -o KasFilter.chug KasFilter.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/FoldbackSaturator'
+CHUCK_STRICT=1 make -C PanN/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/PanN'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o PanN.o PanN.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/MagicSine'
+CHUCK_STRICT=1 make -C PitchTrack/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/PitchTrack'
+gcc -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o fft_mayer.o fft_mayer.c
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/KasFilter'
+CHUCK_STRICT=1 make -C GVerb/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/GVerb'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o gverbdsp.o gverbdsp.cpp
+gcc -shared -lstdc++ -fPIC -Wl,-undefined,dynamic_lookup -o AmbPan.chug AmbPan.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/AmbPan'
+CHUCK_STRICT=1 make -C Mesh2D/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Mesh2D'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Stk.o Stk.cpp
+gcc -shared -lstdc++ -o FIR.chug FIR.o
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Filters.o Filters.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/FIR'
+CHUCK_STRICT=1 make -C Spectacle/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Spectacle'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o genlib/FFTReal.o genlib/FFTReal.cpp
+gcc -shared -lstdc++ -o Ladspa.chug Ladspa.o 
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Ladspa'
+CHUCK_STRICT=1 make -C Elliptic/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Elliptic'
+gcc -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o setell.o setell.c
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o PitchTrack.o PitchTrack.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o GVerb.o GVerb.cpp
+gcc -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o ellipse.o ellipse.c
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Elliptic.o Elliptic.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o genlib/Obucket.o genlib/Obucket.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o genlib/Odelay.o genlib/Odelay.cpp
+gcc -shared -lstdc++ -o ABSaturator.chug ABSaturator.o Filters.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/ABSaturator'
+CHUCK_STRICT=1 make -C Sigmund/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Sigmund'
+gcc -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o d_fft_mayer.o d_fft_mayer.c
+gcc -shared -lstdc++ -o PanN.chug PanN.o
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o genlib/Offt.o genlib/Offt.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o OnePole.o OnePole.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/PanN'
+CHUCK_STRICT=1 make -C ExpDelay/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/ExpDelay'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o ExpDelay.o ExpDelay.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Helmholtz_dsp.o Helmholtz_dsp.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o genlib/Ooscil.o genlib/Ooscil.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o genlib/RandGen.o genlib/RandGen.cpp
+gcc -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o sigmund-dsp.o sigmund-dsp.c
+gcc -shared -lstdc++ -o Elliptic.chug setell.o ellipse.o Elliptic.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Elliptic'
+CHUCK_STRICT=1 make -C Overdrive/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Overdrive'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Overdrive.o Overdrive.cpp
+gcc -shared -lstdc++ -o PitchTrack.chug fft_mayer.o PitchTrack.o Helmholtz_dsp.o
+gcc -shared -lstdc++ -o GVerb.chug gverbdsp.o GVerb.o
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o SpectacleBase.o SpectacleBase.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/PitchTrack'
+CHUCK_STRICT=1 make -C Multicomb/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Multicomb'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Odelay.o Odelay.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/GVerb'
+CHUCK_STRICT=1 make -C PowerADSR/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/PowerADSR'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o PowerADSR.o PowerADSR.cpp
+gcc -shared -lstdc++ -o NHHall.chug NHHall.o
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Ocomb.o Ocomb.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/NHHall'
+CHUCK_STRICT=1 make -C WinFuncEnv/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WinFuncEnv'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o WinFuncEnv.o WinFuncEnv.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Sigmund.o Sigmund.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Mesh2D-stk.o Mesh2D-stk.cpp
+gcc -shared -lstdc++ -o ExpDelay.chug ExpDelay.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/ExpDelay'
+CHUCK_STRICT=1 make -C WPDiodeLadder/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WPDiodeLadder'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o WPDiodeLadder.o WPDiodeLadder.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Multicomb.o Multicomb.cpp
+gcc -shared -lstdc++ -o Overdrive.chug Overdrive.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Overdrive'
+CHUCK_STRICT=1 make -C WPKorg35/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WPKorg35'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o WPKorg35.o WPKorg35.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o SpectEQ.o SpectEQ.cpp
+gcc -shared -lstdc++ -o PowerADSR.chug PowerADSR.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/PowerADSR'
+CHUCK_STRICT=1 make -C Binaural/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Binaural'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include -fPIC -O3 -Werror -c -o Binaural.o Binaural.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o VADiodeLadderFilter.o VADiodeLadderFilter.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Spectacle-dsp.o Spectacle-dsp.cpp
+gcc -shared -lstdc++ -o Sigmund.chug d_fft_mayer.o sigmund-dsp.o Sigmund.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Sigmund'
+CHUCK_STRICT=1 make -C ExpEnv/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/ExpEnv'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o ExpEnv.o ExpEnv.cpp
+gcc -shared -lstdc++ -o WinFuncEnv.chug WinFuncEnv.o
+gcc -shared -lstdc++ -o Multicomb.chug Odelay.o Ocomb.o Multicomb.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WinFuncEnv'
+CHUCK_STRICT=1 make -C Perlin/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Perlin'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Perlin.o Perlin.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Multicomb'
+CHUCK_STRICT=1 make -C Random/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Random'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Random.o Random.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o VAOnePoleFilter.o VAOnePoleFilter.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o VAOnePoleFilterEx.o VAOnePoleFilterEx.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Spectacle.o Spectacle.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o KorgThreeFiveLPF.o KorgThreeFiveLPF.cpp
+gcc -shared -lstdc++ -o WPDiodeLadder.chug WPDiodeLadder.o VADiodeLadderFilter.o VAOnePoleFilterEx.o
+gcc -shared -lstdc++ -o Binaural.chug Binaural.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WPDiodeLadder'
+CHUCK_STRICT=1 make -C RegEx/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/RegEx'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include -fPIC -O3 -Werror -c -o RegEx.o RegEx.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Binaural'
+CHUCK_STRICT=1 make -C Wavetable/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Wavetable'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Wavetable.o Wavetable.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Mesh2D.o Mesh2D.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o perlin-noise.o perlin-noise.cpp
+gcc -shared -lstdc++ -o ExpEnv.chug ExpEnv.o
+gcc -shared -lstdc++ -o WPKorg35.chug WPKorg35.o VAOnePoleFilter.o KorgThreeFiveLPF.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/ExpEnv'
+CHUCK_STRICT=1 make -C XML/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/XML'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include -fPIC -O3 -Werror -c -o tinyxml.o tinyxml.cpp
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/WPKorg35'
+CHUCK_STRICT=1 make -C Line/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Line'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Line.o Line.cpp
+gcc -shared -lstdc++ -o Random.chug Random.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Random'
+CHUCK_STRICT=1 make -C Range/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Range'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Range.o Range.cpp
+gcc -shared -lstdc++ -o Perlin.chug Perlin.o perlin-noise.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Perlin'
+CHUCK_STRICT=1 make -C Patch/ linux
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Patch'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include/ -fPIC -O3 -Werror -c -o Patch.o Patch.cpp
+gcc -shared -lstdc++ -o RegEx.chug RegEx.o
+gcc -shared -lstdc++ -o Spectacle.chug genlib/FFTReal.o genlib/Obucket.o genlib/Odelay.o genlib/Offt.o genlib/Ooscil.o genlib/RandGen.o SpectacleBase.o SpectEQ.o Spectacle-dsp.o Spectacle.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/RegEx'
+gcc -shared -lstdc++ -o Wavetable.chug Wavetable.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Spectacle'
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Wavetable'
+gcc -shared -lstdc++ -o Range.chug Range.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Range'
+gcc -shared -lstdc++ -o Mesh2D.chug Stk.o OnePole.o Mesh2D-stk.o Mesh2D.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Mesh2D'
+gcc -shared -lstdc++ -o Patch.chug Patch.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Patch'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include -fPIC -O3 -Werror -c -o tinyxmlerror.o tinyxmlerror.cpp
+gcc -shared -lstdc++ -o Line.chug Line.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/Line'
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include -fPIC -O3 -Werror -c -o tinyxmlparser.o tinyxmlparser.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include -fPIC -O3 -Werror -c -o util_xml.o util_xml.cpp
+g++ -D__LINUX_ALSA__ -D__PLATFORM_LINUX__ -I../chuck/include -fPIC -O3 -Werror -c -o XML.o XML.cpp
+gcc -shared -lstdc++ -o XML.chug tinyxml.o tinyxmlerror.o tinyxmlparser.o util_xml.o XML.o
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/chugins/XML'
+37.73user 3.23system 0:07.65elapsed 535%CPU (0avgtext+0avgdata 105728maxresident)k
+3256inputs+4296outputs (2major+918704minor)pagefaults 0swaps
+mkdir -p /usr/local/lib/chuck
+cp -rf ABSaturator/ABSaturator.chug AmbPan/AmbPan.chug Bitcrusher/Bitcrusher.chug KasFilter/KasFilter.chug MagicSine/MagicSine.chug FIR/FIR.chug FoldbackSaturator/FoldbackSaturator.chug Ladspa/Ladspa.chug NHHall/NHHall.chug PanN/PanN.chug PitchTrack/PitchTrack.chug GVerb/GVerb.chug Mesh2D/Mesh2D.chug Spectacle/Spectacle.chug Elliptic/Elliptic.chug Sigmund/Sigmund.chug ExpDelay/ExpDelay.chug Overdrive/Overdrive.chug Multicomb/Multicomb.chug PowerADSR/PowerADSR.chug WinFuncEnv/WinFuncEnv.chug WPDiodeLadder/WPDiodeLadder.chug WPKorg35/WPKorg35.chug Binaural/Binaural.chug ExpEnv/ExpEnv.chug Perlin/Perlin.chug Random/Random.chug RegEx/RegEx.chug Wavetable/Wavetable.chug XML/XML.chug Line/Line.chug Range/Range.chug Patch/Patch.chug /usr/local/lib/chuck
+Note: switching to 'chuck-1.5.5.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at bb51c9d miniAudicle 1.5.5.0 release
+qmake "RTAUDIO_BACKEND=ALSA JACK PULSE" -o makefile.qt-linux miniAudicle.pro
+Info: creating stash file /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/.qmake.stash
+Project MESSAGE: compiling for PulseAudio
+Project MESSAGE: compiling for ALSA
+Project MESSAGE: compiling for JACK
+make -f makefile.qt-linux 
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src'
+/usr/lib/qt6/libexec/uic qt/mAMainWindow.ui -o qt-build/ui_mAMainWindow.h
+/usr/lib/qt6/libexec/uic qt/madocumentview.ui -o qt-build/ui_madocumentview.h
+/usr/lib/qt6/libexec/uic qt/mAConsoleMonitor.ui -o qt-build/ui_mAConsoleMonitor.h
+/usr/lib/qt6/libexec/uic qt/mAVMMonitor.ui -o qt-build/ui_mAVMMonitor.h
+/usr/lib/qt6/libexec/uic qt/mAPreferencesWindow.ui -o qt-build/ui_mAPreferencesWindow.h
+/usr/lib/qt6/libexec/uic qt/mAExportDialog.ui -o qt-build/ui_mAExportDialog.h
+/usr/lib/qt6/libexec/uic qt/mADeviceBrowser.ui -o qt-build/ui_mADeviceBrowser.h
+echo \#define GIT_REVISION \"`git rev-parse --short HEAD`\" > .git-rev-tmp; cmp -s .git-rev-tmp git-rev.h || cp .git-rev-tmp git-rev.h; rm .git-rev-tmp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/miniAudicle_log.o miniAudicle_log.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_rterror.o util_rterror.cpp
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_xforms.o chuck/src/core/util_xforms.c
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_thread.o chuck/src/core/util_thread.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_string.o chuck/src/core/util_string.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_serial.o chuck/src/core/util_serial.cpp
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_raw.o chuck/src/core/util_raw.c
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_platforms.o chuck/src/core/util_platforms.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_opsc.o chuck/src/core/util_opsc.cpp
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_network.o chuck/src/core/util_network.c
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_math.o chuck/src/core/util_math.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_hid.o chuck/src/core/util_hid.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_console.o chuck/src/core/util_console.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/util_buffers.o chuck/src/core/util_buffers.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ulib_std.o chuck/src/core/ulib_std.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ulib_opsc.o chuck/src/core/ulib_opsc.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ulib_math.o chuck/src/core/ulib_math.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ulib_machine.o chuck/src/core/ulib_machine.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ulib_doc.o chuck/src/core/ulib_doc.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ulib_ai.o chuck/src/core/ulib_ai.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ugen_xxx.o chuck/src/core/ugen_xxx.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ugen_stk.o chuck/src/core/ugen_stk.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ugen_osc.o chuck/src/core/ugen_osc.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ugen_filter.o chuck/src/core/ugen_filter.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/uana_xform.o chuck/src/core/uana_xform.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/uana_extract.o chuck/src/core/uana_extract.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/rtmidi.o chuck/src/core/rtmidi.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/midiio_rtmidi.o chuck/src/core/midiio_rtmidi.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/hidio_sdl.o chuck/src/core/hidio_sdl.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck.o chuck/src/core/chuck.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_vm.o chuck/src/core/chuck_vm.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_ugen.o chuck/src/core/chuck_ugen.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_type.o chuck/src/core/chuck_type.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_table.o chuck/src/core/chuck_table.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_symbol.o chuck/src/core/chuck_symbol.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_stats.o chuck/src/core/chuck_stats.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_shell.o chuck/src/core/chuck_shell.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_scan.o chuck/src/core/chuck_scan.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_parse.o chuck/src/core/chuck_parse.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_otf.o chuck/src/core/chuck_otf.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_oo.o chuck/src/core/chuck_oo.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_lang.o chuck/src/core/chuck_lang.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_globals.o chuck/src/core/chuck_globals.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_instr.o chuck/src/core/chuck_instr.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_io.o chuck/src/core/chuck_io.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_frame.o chuck/src/core/chuck_frame.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_errmsg.o chuck/src/core/chuck_errmsg.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_emit.o chuck/src/core/chuck_emit.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_dl.o chuck/src/core/chuck_dl.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_compile.o chuck/src/core/chuck_compile.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_carrier.o chuck/src/core/chuck_carrier.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_absyn.o chuck/src/core/chuck_absyn.cpp
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/address.o chuck/src/core/lo/address.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/blob.o chuck/src/core/lo/blob.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/bundle.o chuck/src/core/lo/bundle.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/message.o chuck/src/core/lo/message.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/method.o chuck/src/core/lo/method.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/pattern_match.o chuck/src/core/lo/pattern_match.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/send.o chuck/src/core/lo/send.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/server.o chuck/src/core/lo/server.c
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/timetag.o chuck/src/core/lo/timetag.c
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_audio.o chuck/src/host/chuck_audio.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck_console.o chuck/src/host/chuck_console.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/RtAudio.o chuck/src/host/RtAudio/RtAudio.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/ZSettings.o qt/ZSettings.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mAMainWindow.o qt/mAMainWindow.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/madocumentview.o qt/madocumentview.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mAConsoleMonitor.o qt/mAConsoleMonitor.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mAVMMonitor.o qt/mAVMMonitor.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mAsciLexerChucK.o qt/mAsciLexerChucK.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mAPreferencesWindow.o qt/mAPreferencesWindow.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mAExportDialog.o qt/mAExportDialog.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mASocketManager.o qt/mASocketManager.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/mADeviceBrowser.o qt/mADeviceBrowser.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/main.o qt/main.cpp
+bison -dv -b chuck chuck/src/core/chuck.y
+/usr/lib/qt6/libexec/rcc -name miniAudicle qt/miniAudicle.qrc -o qt-build/qrc_miniAudicle.cpp
+g++ -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -dM -E -o qt-build/moc_predefs.h /usr/lib/x86_64-linux-gnu/qt6/mkspecs/features/data/dummy.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/miniAudicle.o miniAudicle.cpp
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck.tab.o chuck.tab.c
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/qrc_miniAudicle.o qt-build/qrc_miniAudicle.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/mAMainWindow.h -o qt-build/moc_mAMainWindow.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/mAConsoleMonitor.h -o qt-build/moc_mAConsoleMonitor.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/mAVMMonitor.h -o qt-build/moc_mAVMMonitor.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/mAPreferencesWindow.h -o qt-build/moc_mAPreferencesWindow.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/mAExportDialog.h -o qt-build/moc_mAExportDialog.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/mASocketManager.h -o qt-build/moc_mASocketManager.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/madocumentview.h -o qt-build/moc_madocumentview.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/ZSettings.h -o qt-build/moc_ZSettings.cpp
+/usr/lib/qt6/libexec/moc -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt-build/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include qt/mADeviceBrowser.h -o qt-build/moc_mADeviceBrowser.cpp
+flex -o chuck.yy.c chuck/src/core/chuck.lex
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_mAMainWindow.o qt-build/moc_mAMainWindow.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_mAConsoleMonitor.o qt-build/moc_mAConsoleMonitor.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_mAVMMonitor.o qt-build/moc_mAVMMonitor.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_mAPreferencesWindow.o qt-build/moc_mAPreferencesWindow.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_mAExportDialog.o qt-build/moc_mAExportDialog.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_mASocketManager.o qt-build/moc_mASocketManager.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_madocumentview.o qt-build/moc_madocumentview.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_ZSettings.o qt-build/moc_ZSettings.cpp
+g++ -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/moc_mADeviceBrowser.o qt-build/moc_mADeviceBrowser.cpp
+gcc -c -pipe -I/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src/qt -D__LINUX_PULSE__ -D__LINUX_ALSA__ -D__LINUX_JACK__ -D__UNIX_JACK__ -D__CK_SNDFILE_NATIVE__ -Ichuck/src/core -Ichuck/src/host -O3 -w -fPIC -D_REENTRANT -D__MA_COLOR_CONSOLE__ -DHAVE_CONFIG_H -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I/usr/include/x86_64-linux-gnu/qt6 -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets -I/usr/include/x86_64-linux-gnu/qt6/QtGui -I/usr/include/x86_64-linux-gnu/qt6/QtNetwork -I/usr/include/x86_64-linux-gnu/qt6/QtCore -Iqt-build -Iqt-build -I/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -o qt-build/chuck.yy.o chuck.yy.c
+g++ -Wl,-O1 -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu -o miniAudicle  qt-build/miniAudicle.o qt-build/miniAudicle_log.o qt-build/util_rterror.o qt-build/util_xforms.o qt-build/util_thread.o qt-build/util_string.o qt-build/util_serial.o qt-build/util_raw.o qt-build/util_platforms.o qt-build/util_opsc.o qt-build/util_network.o qt-build/util_math.o qt-build/util_hid.o qt-build/util_console.o qt-build/util_buffers.o qt-build/ulib_std.o qt-build/ulib_opsc.o qt-build/ulib_math.o qt-build/ulib_machine.o qt-build/ulib_doc.o qt-build/ulib_ai.o qt-build/ugen_xxx.o qt-build/ugen_stk.o qt-build/ugen_osc.o qt-build/ugen_filter.o qt-build/uana_xform.o qt-build/uana_extract.o qt-build/rtmidi.o qt-build/midiio_rtmidi.o qt-build/hidio_sdl.o qt-build/chuck.o qt-build/chuck_vm.o qt-build/chuck_ugen.o qt-build/chuck_type.o qt-build/chuck_table.o qt-build/chuck_symbol.o qt-build/chuck_stats.o qt-build/chuck_shell.o qt-build/chuck_scan.o qt-build/chuck_parse.o qt-build/chuck_otf.o qt-build/chuck_oo.o qt-build/chuck_lang.o qt-build/chuck_globals.o qt-build/chuck_instr.o qt-build/chuck_io.o qt-build/chuck_frame.o qt-build/chuck_errmsg.o qt-build/chuck_emit.o qt-build/chuck_dl.o qt-build/chuck_compile.o qt-build/chuck_carrier.o qt-build/chuck_absyn.o qt-build/address.o qt-build/blob.o qt-build/bundle.o qt-build/message.o qt-build/method.o qt-build/pattern_match.o qt-build/send.o qt-build/server.o qt-build/timetag.o qt-build/chuck_audio.o qt-build/chuck_console.o qt-build/RtAudio.o qt-build/ZSettings.o qt-build/mAMainWindow.o qt-build/madocumentview.o qt-build/mAConsoleMonitor.o qt-build/mAVMMonitor.o qt-build/mAsciLexerChucK.o qt-build/mAPreferencesWindow.o qt-build/mAExportDialog.o qt-build/mASocketManager.o qt-build/mADeviceBrowser.o qt-build/main.o qt-build/chuck.yy.o qt-build/chuck.tab.o qt-build/qrc_miniAudicle.o qt-build/moc_mAMainWindow.o qt-build/moc_mAConsoleMonitor.o qt-build/moc_mAVMMonitor.o qt-build/moc_mAPreferencesWindow.o qt-build/moc_mAExportDialog.o qt-build/moc_mASocketManager.o qt-build/moc_madocumentview.o qt-build/moc_ZSettings.o qt-build/moc_mADeviceBrowser.o   -lpulse-simple -lpulse -ljack -lasound -lstdc++ -lm -lsndfile -ldl -lqscintilla2_qt6 /usr/lib/x86_64-linux-gnu/libQt6Widgets.so /usr/lib/x86_64-linux-gnu/libQt6Gui.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libQt6Network.so /usr/lib/x86_64-linux-gnu/libQt6Core.so -lpthread -lGLX -lOpenGL   
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src'
+243.86user 12.78system 0:34.26elapsed 749%CPU (0avgtext+0avgdata 364124maxresident)k
+31984inputs+33912outputs (22major+3786331minor)pagefaults 0swaps
+make -f makefile.qt-linux install
+make[1]: Entering directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src'
+echo \#define GIT_REVISION \"`git rev-parse --short HEAD`\" > .git-rev-tmp; cmp -s .git-rev-tmp git-rev.h || cp .git-rev-tmp git-rev.h; rm .git-rev-tmp
+/usr/lib/qt6/bin/qmake -install qinstall -exe miniAudicle /usr/local/bin/miniAudicle
+strip /usr/local/bin/miniAudicle
+make[1]: Leaving directory '/var/home/znmeb/dbx-homes/ExpMusTools-CUDA/Projects/miniAudicle/src'
