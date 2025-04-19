@@ -8,7 +8,8 @@ export LOGFILE=$PWD/Logs/4_RStudio_Server.log
 echo ""
 echo "Installing gdebi-core"
 # https://posit.co/download/rstudio-server/
-/usr/bin/time sudo apt-get install --yes \
+export DEBIAN_FRONTEND="noninteractive"
+/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   gdebi-core \
   >> $LOGFILE 2>&1
 

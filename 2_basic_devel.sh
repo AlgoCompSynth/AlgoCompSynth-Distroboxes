@@ -11,7 +11,9 @@ echo "Adding $USER to the 'audio' group"
 sudo usermod -aG audio $USER
 
 echo "Installing basic development packages"
-export DEBIAN_FRONTEND=noninteractive
+export DEBIAN_FRONTEND="noninteractive"
+/usr/bin/time sudo apt-get update \
+/usr/bin/time sudo apt-get upgrade --assume-yes \
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   apt-file \
   bash-completion \

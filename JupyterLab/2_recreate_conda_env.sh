@@ -15,11 +15,8 @@ echo "PATH: $PATH" \
   >> $LOGFILE 2>&1
 
 echo "Installing Linux dependencies"
-/usr/bin/time sudo apt-get update \
-  >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get upgrade --yes \
-  >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get install --yes \
+export DEBIAN_FRONTEND="noninteractive"
+/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   ffmpeg \
   ffmpeg-doc \
   libffmpeg-nvenc-dev \

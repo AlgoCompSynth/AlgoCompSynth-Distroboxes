@@ -20,11 +20,8 @@ sudo add-apt-repository --yes \
 
 echo ""
 echo "Installing R"
-/usr/bin/time sudo apt-get update \
-  >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get upgrade --yes \
-  >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get install --yes \
+export DEBIAN_FRONTEND="noninteractive"
+/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   r-base \
   r-base-dev \
   >> $LOGFILE 2>&1

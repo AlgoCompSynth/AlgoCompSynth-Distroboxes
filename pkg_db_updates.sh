@@ -3,7 +3,7 @@
 set -e
 
 echo "Updating packages"
-export DEBIAN_FRONTEND=noninteractive
+export DEBIAN_FRONTEND="noninteractive"
 sudo apt-get update -qq && sudo apt-get upgrade -qqy
 
 echo "Updating apt-file database"

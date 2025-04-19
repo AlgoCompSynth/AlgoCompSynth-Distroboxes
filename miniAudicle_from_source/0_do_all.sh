@@ -14,10 +14,6 @@ rm --force $LOGFILE
 
 echo "Installing build dependencies"
 export DEBIAN_FRONTEND="noninteractive"
-sudo apt-get update -qq \
-  >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get upgrade --assume-yes \
-  >> $LOGFILE 2>&1
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   alsa-utils \
   bison \

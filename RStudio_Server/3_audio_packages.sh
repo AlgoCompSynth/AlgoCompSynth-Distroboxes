@@ -6,7 +6,8 @@ echo "Defining LOGFILE"
 export LOGFILE=$PWD/Logs/3_audio_packages.log
 
 echo "Installing Linux dependencies"
-/usr/bin/time sudo apt-get install --yes \
+export DEBIAN_FRONTEND="noninteractive"
+/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   cmake \
   flac \
   ffmpeg \
