@@ -6,7 +6,8 @@ for option in \
   RStudio_Server \
   JupyterLab \
   Faust \
-  miniAudicle
+  miniAudicle \
+  vcvrack_dev
 do
   echo ""
   echo "$option:"
