@@ -57,9 +57,19 @@ pushd $HOME/Projects/miniAudicle/src/chugins
   echo "Building ChuGins"
   git checkout $CHUCK_VERSION \
     >> $LOGFILE 2>&1
-  /usr/bin/time make --jobs=`nproc` linux \
+  /usr/bin/time make --jobs=`nproc` linux-alsa linux-jack \
     >> $LOGFILE 2>&1
   echo "Installing ChuGins"
+  sudo make install \
+    >> $LOGFILE 2>&1
+popd
+
+pushd $HOME/Projects/miniAudicle/src/chugins/Faust
+  echo ""
+  echo "Building Faust ChuGin"
+  /usr/bin/time make --jobs=`nproc` linux-alsa linux-jack \
+    >> $LOGFILE 2>&1
+  echo "Installing Faust ChuGin"
   sudo make install \
     >> $LOGFILE 2>&1
 popd
