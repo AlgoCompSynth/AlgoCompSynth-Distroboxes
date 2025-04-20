@@ -17,8 +17,10 @@ rm --force $LOGFILE
 echo "Installing build dependencies"
 export DEBIAN_FRONTEND="noninteractive"
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
+  libcrypto++-dev \
   libmicrohttpd-dev \
   libpolly-18-dev \
+  libssl-dev \
   libzstd-dev \
   llvm \
   llvm-dev \
