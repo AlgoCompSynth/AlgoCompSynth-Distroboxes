@@ -7,7 +7,7 @@ mkdir --parents "$PWD/Logs"
 export LOGFILE="$PWD/Logs/audio_base.log"
 rm --force $LOGFILE
 
-export DEBIAN_FRONTEND=noninteractive
+export DEBIAN_FRONTEND="noninteractive"
 echo ""
 echo ""
 echo "Installing 'jackd2'. There appears to be no way to keep"
