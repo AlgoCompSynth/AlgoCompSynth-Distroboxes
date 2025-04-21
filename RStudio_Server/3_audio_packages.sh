@@ -3,7 +3,7 @@
 set -e
 
 echo "Defining LOGFILE"
-export LOGFILE=$PWD/Logs/3_audio_packages.log
+export LOGFILE=$PWD/Logs/audio_packages.log
 
 echo "Installing Linux dependencies"
 export DEBIAN_FRONTEND="noninteractive"

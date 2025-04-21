@@ -3,7 +3,7 @@
 set -e
 
 echo "Defining LOGFILE"
-export LOGFILE=$PWD/Logs/2_recreate_conda_env.log
+export LOGFILE=$PWD/Logs/recreate_conda_env.log
 
 echo ""
 echo "Enabling 'conda'"

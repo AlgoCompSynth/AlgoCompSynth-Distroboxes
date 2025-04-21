@@ -3,7 +3,7 @@
 set -e
 
 echo "Defining LOGFILE"
-export LOGFILE=$PWD/Logs/4_RStudio_Server.log
+export LOGFILE=$PWD/Logs/RStudio_Server.log
 
 echo ""
 echo "Installing gdebi-core"

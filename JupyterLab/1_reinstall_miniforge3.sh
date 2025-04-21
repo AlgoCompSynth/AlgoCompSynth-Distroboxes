@@ -3,7 +3,7 @@
 set -e
 
 echo "Defining LOGFILE"
-export LOGFILE=$PWD/Logs/1_reinstall_miniforge3.log
+export LOGFILE=$PWD/Logs/reinstall_miniforge3.log
 
 echo "Creating a new Miniforge3 installation"
 pushd /tmp

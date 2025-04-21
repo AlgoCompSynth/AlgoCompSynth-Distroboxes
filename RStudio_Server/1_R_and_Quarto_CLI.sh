@@ -3,7 +3,7 @@
 set -e
 
 echo "Defining LOGFILE"
-export LOGFILE=$PWD/Logs/1_R_and_Quarto_CLI.log
+export LOGFILE=$PWD/Logs/R_and_Quarto_CLI.log
 
 echo "Adding CRAN repository"
 # https://cran.rstudio.com/bin/linux/ubuntu/
