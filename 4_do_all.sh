@@ -3,6 +3,7 @@
 set -e
 
 for option in \
+  Pd-L2Ork \
   RStudio_Server \
   JupyterLab \
   Faust \
