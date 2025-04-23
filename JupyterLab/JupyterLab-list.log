@@ -20,7 +20,7 @@ brotli                    1.1.0                hb9d3cd8_2    conda-forge
 brotli-bin                1.1.0                hb9d3cd8_2    conda-forge
 brotli-python             1.1.0           py312h2ec8cdc_2    conda-forge
 bzip2                     1.0.8                h4bc722e_7    conda-forge
-ca-certificates           2025.1.31            hbcca054_0    conda-forge
+ca-certificates           2025.1.31            hbd8a1cb_1    conda-forge
 cached-property           1.5.2                hd8ed1ab_1    conda-forge
 cached_property           1.5.2              pyha770c72_1    conda-forge
 cairo                     1.18.4               h3394656_0    conda-forge
@@ -68,7 +68,7 @@ fonts-conda-ecosystem     1                             0    conda-forge
 fonts-conda-forge         1                             0    conda-forge
 fonttools                 4.57.0          py312h178313f_0    conda-forge
 fqdn                      1.5.1              pyhd8ed1ab_1    conda-forge
-freetype                  2.13.3               h48d6fc4_0    conda-forge
+freetype                  2.13.3               ha770c72_1    conda-forge
 gmp                       6.3.0                hac33072_2    conda-forge
 gmpy2                     2.1.5           py312h7201bc8_3    conda-forge
 graphite2                 1.3.13            h59595ed_1003    conda-forge
@@ -101,7 +101,7 @@ jupyter_core              5.7.2              pyh31011fe_1    conda-forge
 jupyter_events            0.12.0             pyh29332c3_0    conda-forge
 jupyter_server            2.15.0             pyhd8ed1ab_0    conda-forge
 jupyter_server_terminals  0.5.3              pyhd8ed1ab_1    conda-forge
-jupyterlab                4.4.0              pyhd8ed1ab_0    conda-forge
+jupyterlab                4.4.1              pyhd8ed1ab_0    conda-forge
 jupyterlab-quarto         0.3.5                    pypi_0    pypi
 jupyterlab_pygments       0.3.0              pyhd8ed1ab_2    conda-forge
 jupyterlab_server         2.27.3             pyhd8ed1ab_1    conda-forge
@@ -110,7 +110,7 @@ kiwisolver                1.4.8           py312h84d6215_0    conda-forge
 krb5                      1.21.3               h659f571_0    conda-forge
 lcms2                     2.17                 h717163a_0    conda-forge
 ld_impl_linux-64          2.43                 h712a8e2_4    conda-forge
-lerc                      4.0.0                h27087fc_0    conda-forge
+lerc                      4.0.0                h0aef613_1    conda-forge
 libblas                   3.9.0            16_linux64_mkl    conda-forge
 libbrotlicommon           1.1.0                hb9d3cd8_2    conda-forge
 libbrotlidec              1.1.0                hb9d3cd8_2    conda-forge
@@ -127,12 +127,14 @@ libcusolver               11.6.1.9                      0    nvidia
 libcusparse               12.3.1.170                    0    nvidia
 libcutensor-cuda-12       2.2.0.0                       0    nvidia
 libcutensor-dev-cuda-12   2.2.0.0                       0    nvidia
-libdeflate                1.23                 h4ddbbb0_0    conda-forge
+libdeflate                1.23                 h86f0d12_0    conda-forge
 libdrm                    2.4.124              hb9d3cd8_0    conda-forge
 libedit                   3.1.20250104    pl5321h7949ede_0    conda-forge
 libegl                    1.7.0                ha4b6fd6_2    conda-forge
 libexpat                  2.7.0                h5888daf_0    conda-forge
 libffi                    3.4.6                h2dba641_1    conda-forge
+libfreetype               2.13.3               ha770c72_1    conda-forge
+libfreetype6              2.13.3               h48d6fc4_1    conda-forge
 libgcc                    14.2.0               h767d61c_2    conda-forge
 libgcc-ng                 14.2.0               h69a702a_2    conda-forge
 libgfortran               14.2.0               h69a702a_2    conda-forge
@@ -144,7 +146,7 @@ libglvnd                  1.7.0                ha4b6fd6_2    conda-forge
 libglx                    1.7.0                ha4b6fd6_2    conda-forge
 libhwloc                  2.11.2          default_h0d58e46_1001    conda-forge
 libiconv                  1.18                 h4ce23a2_1    conda-forge
-libjpeg-turbo             3.0.0                hd590300_1    conda-forge
+libjpeg-turbo             3.1.0                hb9d3cd8_0    conda-forge
 liblapack                 3.9.0            16_linux64_mkl    conda-forge
 liblapacke                3.9.0            16_linux64_mkl    conda-forge
 libllvm20                 20.1.3               he9d0ab4_0    conda-forge
@@ -163,7 +165,7 @@ libsodium                 1.0.20               h4ab18f5_0    conda-forge
 libsqlite                 3.49.1               hee588c1_2    conda-forge
 libstdcxx                 14.2.0               h8f9b012_2    conda-forge
 libstdcxx-ng              14.2.0               h4852527_2    conda-forge
-libtiff                   4.7.0                hd9ff511_3    conda-forge
+libtiff                   4.7.0                hd9ff511_4    conda-forge
 libuuid                   2.38.1               h0b41bf4_0    conda-forge
 libwebp-base              1.5.0                h851e524_0    conda-forge
 libxcb                    1.17.0               h8a09558_0    conda-forge
@@ -206,7 +208,7 @@ openjpeg                  2.5.3                h5fbd93e_0    conda-forge
 openldap                  2.6.9                he970967_0    conda-forge
 openssl                   3.5.0                h7b32b05_0    conda-forge
 overrides                 7.7.0              pyhd8ed1ab_1    conda-forge
-packaging                 25.0               pyhd8ed1ab_0    conda-forge
+packaging                 25.0               pyh29332c3_1    conda-forge
 pandas                    2.2.3           py312hf9745cd_3    conda-forge
 pandocfilters             1.5.0              pyhd8ed1ab_0    conda-forge
 parso                     0.8.4              pyhd8ed1ab_1    conda-forge
@@ -234,7 +236,7 @@ python-dateutil           2.9.0.post0        pyhff2d567_1    conda-forge
 python-fastjsonschema     2.21.1             pyhd8ed1ab_0    conda-forge
 python-json-logger        2.0.7              pyhd8ed1ab_0    conda-forge
 python-tzdata             2025.2             pyhd8ed1ab_0    conda-forge
-python_abi                3.12                    6_cp312    conda-forge
+python_abi                3.12                    7_cp312    conda-forge
 pytorch                   2.5.1           py3.12_cuda12.4_cudnn9.1.0_0    pytorch
 pytorch-cuda              12.4                 hc786d27_7    pytorch
 pytorch-mutex             1.0                        cuda    pytorch
@@ -252,7 +254,7 @@ rpds-py                   0.24.0          py312h3b7be25_0    conda-forge
 scikit-learn              1.6.1           py312h7a48858_0    conda-forge
 scipy                     1.15.2          py312ha707e6e_0    conda-forge
 send2trash                1.8.3              pyh0d859eb_1    conda-forge
-setuptools                78.1.1             pyhff2d567_0    conda-forge
+setuptools                79.0.0             pyhff2d567_0    conda-forge
 six                       1.17.0             pyhd8ed1ab_0    conda-forge
 sniffio                   1.3.1              pyhd8ed1ab_1    conda-forge
 soupsieve                 2.5                pyhd8ed1ab_1    conda-forge

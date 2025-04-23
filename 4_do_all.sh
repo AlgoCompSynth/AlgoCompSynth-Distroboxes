@@ -7,6 +7,7 @@ for option in \
   RStudio_Server \
   JupyterLab \
   Faust \
+  FaustLive \
   miniAudicle \
   vcvrack_dev
 do
