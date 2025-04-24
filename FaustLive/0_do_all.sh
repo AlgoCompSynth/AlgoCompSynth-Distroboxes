@@ -14,13 +14,6 @@ export LOGFILE=$PWD/Logs/install_faustlive.log
 rm --force $LOGFILE
 
 # https://github.com/grame-cncm/faustlive/blob/master/Build/README.md
-echo "Installing build dependencies"
-export DEBIAN_FRONTEND="noninteractive"
-/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
-  qtbase5-dev \
-  qtwayland5 \
-  >> $LOGFILE 2>&1
-
 mkdir --parents $FAUSTLIVE_PATH
 rm --force --recursive $FAUSTLIVE_PATH
 pushd $HOME/Projects

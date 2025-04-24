@@ -14,18 +14,6 @@ conda activate base
 echo "PATH: $PATH" \
   >> $LOGFILE 2>&1
 
-echo "Installing Linux dependencies"
-export DEBIAN_FRONTEND="noninteractive"
-/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
-  ffmpeg \
-  ffmpeg-doc \
-  libffmpeg-nvenc-dev \
-  libsox-dev \
-  libsox-fmt-all \
-  libsoxr-dev \
-  sox \
-  >> $LOGFILE 2>&1
-
 echo "Getting COMPUTE_MODE"
 source ../set_compute_mode.sh
 echo "COMPUTE_MODE: $COMPUTE_MODE"

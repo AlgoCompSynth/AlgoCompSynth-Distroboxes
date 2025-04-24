@@ -5,31 +5,6 @@ set -e
 echo "Defining LOGFILE"
 export LOGFILE=$PWD/Logs/R_and_Quarto_CLI.log
 
-echo "Adding CRAN repository"
-# https://cran.rstudio.com/bin/linux/ubuntu/
-
-# add the signing key (by Michael Rutter) for these repos
-# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
-# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9
-wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc \
-  | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
-# add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed
-sudo add-apt-repository --yes \
-  "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/" \
-  >> $LOGFILE 2>&1
-
-echo ""
-echo "Installing R"
-export DEBIAN_FRONTEND="noninteractive"
-/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
-  r-base \
-  r-base-dev \
-  >> $LOGFILE 2>&1
-echo ""
-echo "R --version: `R --version`"
-echo ""
-echo ""
-
 echo "Setting R profiles $HOME/.Rprofile and $HOME/.Renviron"
 cp Rprofile $HOME/.Rprofile
 # https://forum.posit.co/t/timedatectl-had-status-1/72060/5

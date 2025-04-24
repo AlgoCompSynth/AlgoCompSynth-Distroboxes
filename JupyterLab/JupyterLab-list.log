@@ -93,7 +93,7 @@ joblib                    1.4.2              pyhd8ed1ab_1    conda-forge
 json5                     0.12.0             pyhd8ed1ab_0    conda-forge
 jsonpointer               3.0.0           py312h7900ff3_1    conda-forge
 jsonschema                4.23.0             pyhd8ed1ab_1    conda-forge
-jsonschema-specifications 2024.10.1          pyhd8ed1ab_1    conda-forge
+jsonschema-specifications 2025.4.1           pyh29332c3_0    conda-forge
 jsonschema-with-format-nongpl 4.23.0               hd8ed1ab_1    conda-forge
 jupyter-lsp               2.2.5              pyhd8ed1ab_1    conda-forge
 jupyter_client            8.6.3              pyhd8ed1ab_1    conda-forge

@@ -7,29 +7,6 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/install_vcvrack_from_source.log
 rm --force $LOGFILE
 
-echo "Installing build dependencies"
-sudo apt-get update -qq \
-  >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get upgrade --yes \
-  >> $LOGFILE 2>&1
-/usr/bin/time sudo apt-get install --yes \
-  cmake \
-  curl \
-  gdb \
-  git \
-  jq \
-  libasound2-dev \
-  libglu1-mesa-dev \
-  libgtk2.0-dev \
-  libjack-jackd2-dev \
-  libpulse-dev \
-  libx11-dev \
-  libxcursor-dev \
-  libxi-dev zlib1g-dev \
-  libxinerama-dev \
-  libxrandr-dev \
-  >> $LOGFILE 2>&1
-
 mkdir --parents $HOME/Projects
 pushd $HOME/Projects
   echo "Cloning repositories"

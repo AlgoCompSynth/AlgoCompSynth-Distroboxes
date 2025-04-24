@@ -12,22 +12,6 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/install_miniaudicle.log
 rm --force $LOGFILE
 
-echo "Installing build dependencies"
-export DEBIAN_FRONTEND="noninteractive"
-/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
-  alsa-utils \
-  bison \
-  build-essential \
-  flex \
-  libasound2-dev \
-  libjack-jackd2-dev \
-  libpulse-dev \
-  libqscintilla2-qt6-dev \
-  qt6-base-dev \
-  qt6-wayland \
-  qt6-wayland-dev \
-  libsndfile1-dev \
-  >> $LOGFILE 2>&1
 export PATH=/usr/lib/qt6/bin:$PATH
 
 mkdir --parents $HOME/Projects

@@ -14,19 +14,6 @@ export LOGFILE=$PWD/Logs/install_faust.log
 rm --force $LOGFILE
 
 # https://github.com/grame-cncm/faust/wiki/Building
-echo "Installing build dependencies"
-export DEBIAN_FRONTEND="noninteractive"
-/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
-  libcrypto++-dev \
-  libmicrohttpd-dev \
-  libpolly-18-dev \
-  libssl-dev \
-  libzstd-dev \
-  llvm \
-  llvm-dev \
-  pkg-config \
-  >> $LOGFILE 2>&1
-
 mkdir --parents $FAUST_PATH
 rm --force --recursive $FAUST_PATH
 pushd $HOME/Projects
