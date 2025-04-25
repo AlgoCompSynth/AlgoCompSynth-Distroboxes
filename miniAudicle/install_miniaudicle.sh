@@ -12,6 +12,17 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/install_miniaudicle.log
 rm --force $LOGFILE
 
+echo "Installing Linux build dependencies"
+export DEBIAN_FRONTEND=noninteractive
+/usr/bin/time sudo apt-get install -qqy --no-install-recommends \
+  bison \
+  flex \
+  libqscintilla2-qt6-dev \
+  qt6-base-dev \
+  qt6-base-dev-tools \
+  qt6-wayland \
+  >> $LOGFILE 2>&1
+
 export PATH=/usr/lib/qt6/bin:$PATH
 
 mkdir --parents $HOME/Projects
@@ -44,16 +55,6 @@ pushd $HOME/Projects/miniAudicle/src/chugins
   /usr/bin/time make --jobs=`nproc` linux-alsa linux-jack \
     >> $LOGFILE 2>&1
   echo "Installing ChuGins"
-  sudo make install \
-    >> $LOGFILE 2>&1
-popd
-
-pushd $HOME/Projects/miniAudicle/src/chugins/Faust
-  echo ""
-  echo "Building Faust ChuGin"
-  /usr/bin/time make --jobs=`nproc` linux-alsa linux-jack \
-    >> $LOGFILE 2>&1
-  echo "Installing Faust ChuGin"
   sudo make install \
     >> $LOGFILE 2>&1
 popd
