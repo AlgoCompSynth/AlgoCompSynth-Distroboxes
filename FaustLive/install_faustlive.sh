@@ -13,6 +13,14 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/install_faustlive.log
 rm --force $LOGFILE
 
+echo "Installing build dependencies"
+export DEBIAN_FRONTEND=noninteractive
+/usr/bin/time sudo apt-get install -qqy --no-install-recommends \
+  libcurl4-openssl-dev \
+  qtbase5-dev \
+  qtbase5-dev-tools \
+  >> $LOGFILE 2>&1
+
 # https://github.com/grame-cncm/faustlive/blob/master/Build/README.md
 mkdir --parents $FAUSTLIVE_PATH
 rm --force --recursive $FAUSTLIVE_PATH
@@ -26,7 +34,8 @@ popd
 pushd $FAUSTLIVE_PATH/Build
   echo ""
   echo "Building FaustLive"
-  git checkout $FAUSTLIVE_VERSION
+  git checkout $FAUSTLIVE_VERSION \
+    >> $LOGFILE 2>&1
   /usr/bin/time make \
     >> $LOGFILE 2>&1
   echo "Installing FaustLive"

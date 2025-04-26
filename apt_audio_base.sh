@@ -18,7 +18,7 @@ echo "with realtime priority later, you can change it by running"
 echo ""
 echo "    sudo dpkg-reconfigure jackd2"
 echo ""
-read -p "Press 'Enter' to continue:"
+sleep 10
 
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install -qqy --no-install-recommends jackd2
