@@ -27,10 +27,8 @@ pushd /tmp
 
   popd
 
-# https://starship.rs/guide/#%F0%9F%9A%80-installation
 echo "Installing Starship"
-export BIN_DIR=$HOME/.local/bin
-curl -sS https://starship.rs/install.sh | sh
+./install_starship.sh
 mkdir --parents $HOME/.config
 cp starship.toml $HOME/.config/starship.toml
 

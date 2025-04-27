@@ -2,14 +2,13 @@
 
 set -e
 
+./terminal_setup.sh
+./apt_basic_devel.sh
+./apt_audio_base.sh
+
 for option in \
-  Pd-L2Ork \
   RStudio_Server \
-  JupyterLab \
-  Faust \
-  FaustLive \
-  miniAudicle \
-  vcvrack_dev
+  JupyterLab
 do
   echo ""
   echo "$option:"
@@ -18,3 +17,5 @@ do
   ./0_do_all.sh
   popd
 done
+
+./apt_pkg_db_updates.sh
