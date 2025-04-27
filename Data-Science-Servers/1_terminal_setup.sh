@@ -1,0 +1,1 @@
+../1_terminal_setup.sh

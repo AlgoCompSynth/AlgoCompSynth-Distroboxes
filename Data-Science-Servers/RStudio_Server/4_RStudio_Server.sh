@@ -6,6 +6,13 @@ echo "Defining LOGFILE"
 export LOGFILE=$PWD/Logs/RStudio_Server.log
 
 echo ""
+echo "Installing gdebi-core"
+# https://posit.co/download/rstudio-server/
+/usr/bin/time sudo apt-get install --yes \
+  gdebi-core \
+  >> $LOGFILE 2>&1
+
+echo ""
 echo "Installing RStudio Server"
 pushd /tmp
 rm -f *.deb
