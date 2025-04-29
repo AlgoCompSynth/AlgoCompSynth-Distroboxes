@@ -23,25 +23,20 @@ export DEBIAN_FRONTEND=noninteractive
   fluidsynth \
   freepats \
   iannix \
-  jack-tools \
   libasound2-dev \
   libasound2-plugins \
   libcanberra-gtk3-module \
-  libjack-jackd2-dev \
-  libpulse-dev \
   libsndfile1-dev \
   libsox-fmt-all \
   libsoxr0 \
   mp3splt \
   pipewire \
   polyphone \
-  pulseaudio \
-  pulseaudio-utils \
-  qjackctl \
   sf3convert \
   sndfile-tools \
   sox \
   timidity \
+  wireplumber \
   wireplumber-doc \
   >> $LOGFILE 2>&1
 
