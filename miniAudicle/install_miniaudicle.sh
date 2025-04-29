@@ -40,7 +40,7 @@ pushd $HOME/Projects/miniAudicle/src/chuck/src
   echo "Building ChucK"
   git checkout $CHUCK_VERSION \
     >> $LOGFILE 2>&1
-  /usr/bin/time make --jobs=`nproc` linux-all \
+  /usr/bin/time make --jobs=`nproc` linux-alsa \
     >> $LOGFILE 2>&1
   echo "Installing ChucK"
   sudo make install \
@@ -52,7 +52,7 @@ pushd $HOME/Projects/miniAudicle/src/chugins
   echo "Building ChuGins"
   git checkout $CHUCK_VERSION \
     >> $LOGFILE 2>&1
-  /usr/bin/time make --jobs=`nproc` linux-alsa linux-jack \
+  /usr/bin/time make --jobs=`nproc` linux-alsa \
     >> $LOGFILE 2>&1
   echo "Installing ChuGins"
   sudo make install \
@@ -64,7 +64,7 @@ pushd $HOME/Projects/miniAudicle/src
   echo "Building miniAudicle"
   git checkout $CHUCK_VERSION \
     >> $LOGFILE 2>&1
-  /usr/bin/time make --jobs=`nproc` linux-all \
+  /usr/bin/time make --jobs=`nproc` linux-alsa \
     >> $LOGFILE 2>&1
   echo "Installing miniAudicle"
   sudo make install \
