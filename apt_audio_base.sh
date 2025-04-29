@@ -26,6 +26,7 @@ export DEBIAN_FRONTEND=noninteractive
   jack-tools \
   libasound2-dev \
   libasound2-plugins \
+  libcanberra-gtk3-module \
   libjack-jackd2-dev \
   libpulse-dev \
   libsndfile1-dev \
