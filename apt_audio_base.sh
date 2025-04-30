@@ -30,8 +30,9 @@ export DEBIAN_FRONTEND=noninteractive
   libsox-fmt-all \
   libsoxr0 \
   mp3splt \
-  pipewire \
+  pipewire-audio \
   polyphone \
+  rtkit \
   sf3convert \
   sndfile-tools \
   sox \
