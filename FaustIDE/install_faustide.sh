@@ -2,7 +2,6 @@
 
 set -e
 
-export FAUSTIDE_VERSION="2.5.19"
 export FAUSTIDE_URL="https://github.com/grame-cncm/faustide.git --depth 1"
 export FAUSTIDE_PATH="$HOME/Projects/faustide"
 export FAUSTIDE_SCRIPT=$PWD/FaustIDE

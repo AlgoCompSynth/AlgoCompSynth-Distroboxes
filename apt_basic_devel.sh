@@ -17,7 +17,6 @@ export DEBIAN_FRONTEND=noninteractive
   cmake \
   curl \
   file \
-  gcc-multilib \
   gettext \
   libtool \
   libusb-1.0-0-dev \
