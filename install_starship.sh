@@ -8,5 +8,5 @@ pushd /tmp
   rm --force install.sh
   curl --silent --show-error --remote-name https://starship.rs/install.sh
   chmod +x install.sh
-  ./install.sh --yes
+  ./install.sh --yes > /dev/null
 popd

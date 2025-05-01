@@ -2,6 +2,9 @@
 
 set -e
 
+echo ""
+echo "*** Basic Development Packages ***"
+
 echo "Defining LOGFILE"
 mkdir --parents "$PWD/Logs"
 export LOGFILE="$PWD/Logs/apt_basic_devel.log"

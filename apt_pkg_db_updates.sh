@@ -2,6 +2,9 @@
 
 set -e
 
+echo ""
+echo "*** Package Databse Updates ***"
+
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/apt_pkg_db_updates.log

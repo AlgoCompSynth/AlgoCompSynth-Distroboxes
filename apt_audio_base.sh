@@ -2,16 +2,18 @@
 
 set -e
 
+echo ""
+echo "*** Audio Base Packages ***"
+
 echo "Defining LOGFILE"
 mkdir --parents "$PWD/Logs"
 export LOGFILE="$PWD/Logs/apt_audio_base.log"
 rm --force $LOGFILE
 
-echo ""
 echo "Adding $USER to the 'audio' group"
 sudo usermod -aG audio $USER
 
-echo "Installing base audio packages"
+echo "Installing audio base packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   alsa-utils \
