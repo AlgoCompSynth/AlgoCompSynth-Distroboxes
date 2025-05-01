@@ -15,14 +15,12 @@ echo "Installing base audio packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   alsa-utils \
-  audacity \
   ffmpeg \
   flac \
   fluid-soundfont-gm \
   fluid-soundfont-gs \
   fluidsynth \
   freepats \
-  iannix \
   libasound2-dev \
   libasound2-plugins \
   libcanberra-gtk3-module \
@@ -31,7 +29,6 @@ export DEBIAN_FRONTEND=noninteractive
   libsoxr0 \
   mp3splt \
   pipewire-audio \
-  polyphone \
   rtkit \
   sf3convert \
   sndfile-tools \

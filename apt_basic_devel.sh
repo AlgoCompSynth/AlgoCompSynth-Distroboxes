@@ -11,15 +11,11 @@ echo "Installing basic development packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   apt-file \
-  automake \
   bash-completion \
   build-essential \
   cmake \
   curl \
   file \
-  gettext \
-  libtool \
-  libusb-1.0-0-dev \
   lsb-release \
   lynx \
   man-db \
