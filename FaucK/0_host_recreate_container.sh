@@ -23,6 +23,8 @@ echo "COMPUTE_MODE: $COMPUTE_MODE"
 
 echo ""
 echo "Setting environment variables"
+#export DBX_CONTAINER_IMAGE="ghcr.io/ublue-os/ubuntu-toolbox:latest" # most bells and whistles
+#export DBX_CONTAINER_IMAGE="docker.io/library/ubuntu:24.04" # smallest base
 export DBX_CONTAINER_IMAGE="ghcr.io/ublue-os/ubuntu-toolbox:latest"
 export DBX_CONTAINER_NAME="FaucK"
 export DBX_CONTAINER_HOME_PREFIX="$HOME/dbx-homes"
