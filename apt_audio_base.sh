@@ -23,10 +23,7 @@ export DEBIAN_FRONTEND=noninteractive
   fluid-soundfont-gs \
   fluidsynth \
   freepats \
-  libasound2-dev \
   libasound2-plugins \
-  libcanberra-gtk3-module \
-  libsndfile1-dev \
   libsox-fmt-all \
   libsoxr0 \
   mp3splt \
