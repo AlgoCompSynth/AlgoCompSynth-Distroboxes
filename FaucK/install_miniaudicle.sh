@@ -57,7 +57,7 @@ pushd $HOME/Projects/miniAudicle/src/chugins/Faust
     >> $LOGFILE 2>&1
   /usr/bin/time make --jobs=`nproc` linux-alsa \
     >> $LOGFILE 2>&1
-  echo "Installing ChuGins"
+  echo "Installing Faust ChuGin"
   sudo make install \
     >> $LOGFILE 2>&1
 popd > /dev/null
