@@ -23,7 +23,7 @@ echo "COMPUTE_MODE: $COMPUTE_MODE"
 
 echo ""
 echo "Setting environment variables"
-export DBX_CONTAINER_IMAGE="quay.io/toolbx/ubuntu-toolbox:24.04"
+export DBX_CONTAINER_IMAGE="ghcr.io/ublue-os/ubuntu-toolbox:latest"
 export DBX_CONTAINER_NAME="Pd-L2Ork"
 export DBX_CONTAINER_HOME_PREFIX="$HOME/dbx-homes"
 export DBX_CONTAINER_DIRECTORY="$DBX_CONTAINER_HOME_PREFIX/$DBX_CONTAINER_NAME"
