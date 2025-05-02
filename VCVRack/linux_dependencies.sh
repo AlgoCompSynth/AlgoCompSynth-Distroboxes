@@ -16,6 +16,7 @@ export DEBIAN_FRONTEND=noninteractive
   autoconf \
   automake \
   jq \
+  libasound2-dev \
   libglew-dev \
   libjack-jackd2-dev \
   libpulse-dev \
