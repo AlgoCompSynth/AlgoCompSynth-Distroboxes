@@ -1,2 +1,2 @@
-# Musical-Data-Science
-A pet container for analyzing and synthesizing music
+# AlgoCompSynth-Distroboxes
+Pet containers for analyzing and synthesizing music
