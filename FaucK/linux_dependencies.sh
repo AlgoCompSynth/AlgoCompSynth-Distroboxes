@@ -15,9 +15,11 @@ export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install -qqy --no-install-recommends \
   bison \
   flex \
+  libasound2-dev \
   libmicrohttpd-dev \
   libpolly-18-dev \
   libqscintilla2-qt6-dev \
+  libsndfile1-dev \
   libzstd-dev \
   llvm \
   llvm-dev \
