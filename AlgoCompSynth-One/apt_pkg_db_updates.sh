@@ -3,7 +3,7 @@
 set -e
 
 echo ""
-echo "*** Package Databse Updates ***"
+echo "*** Package Database Updates ***"
 
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
