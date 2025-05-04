@@ -3,12 +3,14 @@
 set -e
 
 ./terminal_setup.sh
-./apt_basic_devel.sh
 ./apt_audio_base.sh
+./apt_pkg_db_updates.sh
 
 for option in \
   RStudio_Server \
-  JupyterLab
+  JupyterLab \
+  FaucK \
+  VCVRack
 do
   echo ""
   echo "$option:"
@@ -17,5 +19,3 @@ do
   ./0_do_all.sh
   popd
 done
-
-./apt_pkg_db_updates.sh
