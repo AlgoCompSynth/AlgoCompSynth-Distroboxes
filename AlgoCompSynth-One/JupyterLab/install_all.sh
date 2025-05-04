@@ -4,7 +4,6 @@ set -e
 
 mkdir --parents Logs
 rm -f Logs/*
-touch Logs/.gitkeep
 
 for script in \
   1_reinstall_miniforge3.sh \

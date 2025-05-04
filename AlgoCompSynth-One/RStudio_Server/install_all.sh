@@ -4,7 +4,6 @@ set -e
 
 mkdir --parents Logs
 rm -f Logs/*
-touch Logs/.gitkeep
 
 for script in \
   1_R_and_Quarto_CLI.sh \
