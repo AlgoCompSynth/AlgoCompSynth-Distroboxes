@@ -7,34 +7,39 @@ echo "*** Audio Base Packages ***"
 
 echo "Defining LOGFILE"
 mkdir --parents "$PWD/Logs"
-export LOGFILE="$PWD/Logs/apt_audio_base.log"
+export LOGFILE="$PWD/Logs/audio_base.log"
 rm --force $LOGFILE
-
-echo "Adding $USER to the 'audio' group"
-sudo usermod -aG audio $USER
 
 echo "Installing audio base packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   alsa-utils \
-  ffmpeg \
-  flac \
-  fluid-soundfont-gm \
-  fluid-soundfont-gs \
-  fluidsynth \
-  freepats \
-  libasound2-plugins \
-  libsox-fmt-all \
-  libsoxr0 \
-  mp3splt \
-  pipewire-audio \
-  rtkit \
-  sf3convert \
-  sndfile-tools \
-  sox \
-  timidity \
-  wireplumber \
-  wireplumber-doc \
+  apt-file \
+  bash-completion \
+  build-essential \
+  cmake \
+  curl \
+  file \
+  lsb-release \
+  lynx \
+  man-db \
+  minicom \
+  ninja-build \
+  pipewire-alsa \
+  pkg-config \
+  plocate \
+  python3-dev \
+  python3-pip \
+  python3-setuptools \
+  python3-venv \
+  python3-wheel \
+  screen \
+  speedtest-cli \
+  tmux \
+  tree \
+  unzip \
+  usbutils \
+  wget \
   >> $LOGFILE 2>&1
 
 echo "Finished"
