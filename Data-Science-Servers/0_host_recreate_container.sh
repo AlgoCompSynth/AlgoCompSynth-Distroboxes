@@ -23,8 +23,6 @@ echo "COMPUTE_MODE: $COMPUTE_MODE"
 
 echo ""
 echo "Setting environment variables"
-#export DBX_CONTAINER_IMAGE="ghcr.io/ublue-os/ubuntu-toolbox:latest" # most bells and whistles
-#export DBX_CONTAINER_IMAGE="docker.io/library/ubuntu:24.04" # smallest base
 export DBX_CONTAINER_IMAGE="quay.io/toolbx/ubuntu-toolbox:24.04" # only one with man pages
 export DBX_CONTAINER_NAME="Data-Science-Servers"
 export DBX_CONTAINER_HOME_PREFIX="$HOME/dbx-homes"
@@ -51,7 +49,7 @@ then
     --hostname $DBX_CONTAINER_HOSTNAME \
     --pull \
     --home $DBX_CONTAINER_DIRECTORY \
-    --additional-packages "systemd libpam-systemd dirmngr git software-properties-common time vim" \
+    --additional-packages "systemd libpam-systemd git time vim" \
     --init
 else
   distrobox create \
@@ -60,7 +58,7 @@ else
     --hostname $DBX_CONTAINER_HOSTNAME \
     --pull \
     --home $DBX_CONTAINER_DIRECTORY \
-    --additional-packages "systemd libpam-systemd dirmngr git software-properties-common time vim" \
+    --additional-packages "systemd libpam-systemd git time vim" \
     --init
 fi
   

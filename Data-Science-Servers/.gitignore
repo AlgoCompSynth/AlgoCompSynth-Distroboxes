@@ -1,3 +1,2 @@
-chuck
-chugins
-miniAudicle
+*.log
+set_compute_mode.sh

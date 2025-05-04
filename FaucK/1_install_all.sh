@@ -3,7 +3,6 @@
 set -e
 
 ./terminal_setup.sh
-./apt_basic_devel.sh
 ./apt_audio_base.sh
 ./linux_dependencies.sh
 ./install_faust.sh

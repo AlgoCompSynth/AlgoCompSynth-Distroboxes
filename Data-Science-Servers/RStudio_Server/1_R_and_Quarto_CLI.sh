@@ -5,6 +5,12 @@ set -e
 echo "Defining LOGFILE"
 export LOGFILE=$PWD/Logs/R_and_Quarto_CLI.log
 
+echo ""
+echo "Installing software-properties-common"
+/usr/bin/time sudo apt-get install -qqy --no-install-recommends \
+  software-properties-common \
+  >> $LOGFILE 2>&1
+
 # https://cran.r-project.org/bin/linux/ubuntu/
 # add the signing key (by Michael Rutter) for these repos
 # To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc 
