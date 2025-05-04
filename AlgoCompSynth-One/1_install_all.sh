@@ -16,6 +16,6 @@ do
   echo "$option:"
   sleep 15
   pushd $option
-  ./0_do_all.sh
+  ./install_all.sh
   popd
 done
