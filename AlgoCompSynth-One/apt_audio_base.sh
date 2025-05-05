@@ -12,7 +12,7 @@ rm --force $LOGFILE
 
 echo "Installing audio base packages"
 export DEBIAN_FRONTEND=noninteractive
-/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
+/usr/bin/time sudo apt-get install --assume-yes \
   alsa-utils \
   apt-file \
   bash-completion \
@@ -25,9 +25,11 @@ export DEBIAN_FRONTEND=noninteractive
   man-db \
   minicom \
   ninja-build \
-  pipewire-alsa \
+  pipewire-audio \
+  pipewire-doc \
   pkg-config \
   plocate \
+  pulseaudio-utils \
   python3-dev \
   python3-pip \
   python3-setuptools \
@@ -40,6 +42,7 @@ export DEBIAN_FRONTEND=noninteractive
   unzip \
   usbutils \
   wget \
+  wireplumber-doc \
   >> $LOGFILE 2>&1
 
 echo "Finished"
