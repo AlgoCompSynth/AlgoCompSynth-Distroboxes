@@ -3,8 +3,9 @@
 set -e
 
 ./terminal_setup.sh
-./apt_basic_devel.sh
 ./apt_audio_base.sh
 ./linux_dependencies.sh
-./install_vcvrack.sh
-./apt_pkg_db_updates.sh
+../apt_pkg_db_updates.sh
+./install_faust.sh
+./install_faustide.sh
+./install_miniaudicle.sh

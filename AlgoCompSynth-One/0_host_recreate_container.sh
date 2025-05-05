@@ -24,7 +24,7 @@ echo "COMPUTE_MODE: $COMPUTE_MODE"
 echo ""
 echo "Setting environment variables"
 export DBX_CONTAINER_IMAGE="quay.io/toolbx/ubuntu-toolbox:24.04" # only one with man pages
-export DBX_CONTAINER_NAME="Data-Science-Servers"
+export DBX_CONTAINER_NAME="AlgoCompSynth-One"
 export DBX_CONTAINER_HOME_PREFIX="$HOME/dbx-homes"
 export DBX_CONTAINER_DIRECTORY="$DBX_CONTAINER_HOME_PREFIX/$DBX_CONTAINER_NAME"
 export DBX_CONTAINER_HOSTNAME=$DBX_CONTAINER_NAME

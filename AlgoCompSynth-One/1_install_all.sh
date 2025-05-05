@@ -8,14 +8,14 @@ set -e
 
 for option in \
   RStudio_Server \
-  JupyterLab
+  JupyterLab \
+  FaucK \
+  VCVRack
 do
   echo ""
   echo "$option:"
   sleep 15
   pushd $option
-  ./0_do_all.sh
+  ./install_all.sh
   popd
 done
-
-./apt_pkg_db_updates.sh
