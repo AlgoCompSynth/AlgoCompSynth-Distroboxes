@@ -12,7 +12,7 @@ rm --force $LOGFILE
 
 echo "Installing audio base packages"
 export DEBIAN_FRONTEND=noninteractive
-/usr/bin/time sudo apt-get install --assume-yes \
+/usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   alsa-utils \
   apt-file \
   bash-completion \
@@ -25,8 +25,11 @@ export DEBIAN_FRONTEND=noninteractive
   man-db \
   minicom \
   ninja-build \
+  pipewire-alsa \
   pipewire-audio \
   pipewire-doc \
+  pipewire-jack \
+  pipewire-pulse \
   pkg-config \
   plocate \
   pulseaudio-utils \
@@ -42,6 +45,7 @@ export DEBIAN_FRONTEND=noninteractive
   unzip \
   usbutils \
   wget \
+  wireplumber \
   wireplumber-doc \
   >> $LOGFILE 2>&1
 
