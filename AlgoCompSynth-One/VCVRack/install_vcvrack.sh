@@ -37,12 +37,12 @@ pushd $HOME/Projects
 
 popd > /dev/null
 
-echo "make dep"
+echo "make dep" | tee --append $LOGFILE
 pushd $HOME/Projects/Rack
   /usr/bin/time make dep \
     >> $LOGFILE 2>&1
 
-  echo "make"
+  echo "make" | tee --append $LOGFILE
   /usr/bin/time make --jobs=`nproc` \
     >> $LOGFILE 2>&1
 
