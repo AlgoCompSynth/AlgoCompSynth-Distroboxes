@@ -38,6 +38,7 @@ export DEBIAN_FRONTEND=noninteractive
   python3-setuptools \
   python3-venv \
   python3-wheel \
+  rtkit \
   screen \
   speedtest-cli \
   tmux \
