@@ -25,7 +25,6 @@ required_packages <- c(
   "signal",
   "soundecology",
   "soundgen",
-  "tabr",
   "tuneR",
   "warbleR"
 )
