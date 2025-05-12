@@ -63,6 +63,18 @@ pushd $HOME/Projects/miniAudicle/src/chugins/Faust
 popd > /dev/null
 
 echo ""
+echo "Building FluidSynth ChuGin"
+pushd $HOME/Projects/miniAudicle/src/chugins/FluidSynth
+  git checkout $CHUCK_VERSION \
+    >> $LOGFILE 2>&1
+  /usr/bin/time make --jobs=`nproc` linux-alsa \
+    >> $LOGFILE 2>&1
+  echo "Installing FluidSynth ChuGin"
+  sudo make install \
+    >> $LOGFILE 2>&1
+popd > /dev/null
+
+echo ""
 echo "Building miniAudicle"
 pushd $HOME/Projects/miniAudicle/src
   git checkout $CHUCK_VERSION \
