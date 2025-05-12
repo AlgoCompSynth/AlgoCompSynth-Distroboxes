@@ -20,10 +20,18 @@ export DEBIAN_FRONTEND=noninteractive
   cmake \
   curl \
   file \
+  flac \
+  ffmpeg \
+  fluid-soundfont-gm \
+  fluid-soundfont-gs \
+  fluidsynth \
+  freepats \
+  libsox-fmt-all  \
   lsb-release \
   lynx \
   man-db \
   minicom \
+  mp3splt \
   ninja-build \
   pipewire-alsa \
   pipewire-audio \
@@ -38,9 +46,11 @@ export DEBIAN_FRONTEND=noninteractive
   python3-setuptools \
   python3-venv \
   python3-wheel \
+  qsynth \
   rtkit \
   screen \
   speedtest-cli \
+  sox \
   tmux \
   tree \
   unzip \

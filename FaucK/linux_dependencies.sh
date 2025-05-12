@@ -16,6 +16,7 @@ export DEBIAN_FRONTEND=noninteractive
   bison \
   flex \
   libasound2-dev \
+  libfluidsynth-dev \
   libmicrohttpd-dev \
   libpolly-18-dev \
   libqscintilla2-qt6-dev \

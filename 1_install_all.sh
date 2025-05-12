@@ -7,10 +7,10 @@ set -e
 ./apt_pkg_db_updates.sh
 
 for option in \
-  RStudio_Server \
-  JupyterLab \
+  VCVRack \
   FaucK \
-  VCVRack
+  RStudio_Server \
+  JupyterLab
 do
   echo ""
   echo "$option:"

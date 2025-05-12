@@ -12,6 +12,7 @@ echo "Installing Linux dependencies"
   ffmpeg \
   fluid-soundfont-gm \
   fluid-soundfont-gs \
+  freepats \
   libavfilter-dev \
   libcurl4-openssl-dev \
   libfftw3-dev \
