@@ -2,7 +2,6 @@
 
 set -e
 
-./terminal_setup.sh
 ./apt_audio_base.sh
 ./apt_pkg_db_updates.sh
 
