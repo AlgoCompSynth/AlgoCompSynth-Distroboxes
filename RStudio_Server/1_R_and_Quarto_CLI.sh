@@ -21,8 +21,9 @@ wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc \
 sudo add-apt-repository --yes "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
 
 echo ""
-echo "Installing R"
+echo "Installing bibtool, qpdf and R"
 /usr/bin/time sudo apt-get install -qqy --no-install-recommends \
+  bibtool \
   qpdf \
   r-base \
   r-base-dev \
