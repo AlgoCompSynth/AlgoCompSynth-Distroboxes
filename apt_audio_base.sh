@@ -40,6 +40,7 @@ export DEBIAN_FRONTEND=noninteractive
   pipewire-pulse \
   pkg-config \
   plocate \
+  pmidi \
   pulseaudio-utils \
   python3-dev \
   python3-pip \
@@ -51,6 +52,8 @@ export DEBIAN_FRONTEND=noninteractive
   screen \
   speedtest-cli \
   sox \
+  timidity \
+  timidity-daemon \
   tmux \
   tree \
   unzip \
