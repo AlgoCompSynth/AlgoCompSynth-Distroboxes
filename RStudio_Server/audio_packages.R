@@ -33,4 +33,5 @@ cat("\nInstalling:\n")
 print(to_install)
 install.packages(to_install, quiet = TRUE, repos = "https://cloud.r-project.org/")
 warnings()
-# "caracas",
+remotes::install_github("AlgoCompSynth/consonaR", dependencies=TRUE)
+remotes::install_github("AlgoCompSynth/eikosany", dependencies=TRUE)
