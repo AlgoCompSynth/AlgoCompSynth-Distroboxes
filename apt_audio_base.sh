@@ -47,7 +47,6 @@ export DEBIAN_FRONTEND=noninteractive
   python3-setuptools \
   python3-venv \
   python3-wheel \
-  qsynth \
   rtkit \
   screen \
   speedtest-cli \
